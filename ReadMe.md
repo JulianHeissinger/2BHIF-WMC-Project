@@ -4,12 +4,12 @@ Our (Marko, Paul, Luka and Julian) project repository.
 ## Aufteilung:
 ### Autos
 #### Paul
-<br/>
+<br>
 ### Jets
 #### Luka
-<br/>
+<br>
 ### Motorräder
 #### Julian
-<br/>
+<br>
 ### Monster-Trucks
 #### Marko
