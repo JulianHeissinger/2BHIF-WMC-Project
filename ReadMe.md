@@ -4,6 +4,11 @@ Our (Marko, Paul, Luka and Julian) project repository.
 ## Aufteilung:
 ### Autos
 #### Paul
+- BMW
+- Porsche
+- Lamborghini
+- Pagani
+- Mercedes
 
 ## Jets: Faszinierende Fakten und Entwicklungen
 
