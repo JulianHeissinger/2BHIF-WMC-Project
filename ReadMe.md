@@ -35,4 +35,6 @@ Entstehung:
 Formel 1 erste Autos
 Big 3
 Strecken Monaco etc
+![Leonardo_Phoenix_A_sleek_and_futuristic_Formel_1_car_shines_br_1](https://github.com/user-attachments/assets/6a5c6b34-d45d-42e3-8baa-3e31b983887a)
+
 
