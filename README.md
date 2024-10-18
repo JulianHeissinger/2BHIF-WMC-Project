@@ -1,2 +1,2 @@
 # 2BHIF-WMC-Project
-Our (Marko, Paul, Luka and me) project repository.
+Our (Marko, Paul, Luka and Julian) project repository.
