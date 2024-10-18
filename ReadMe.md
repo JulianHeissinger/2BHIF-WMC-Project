@@ -37,6 +37,6 @@ Entstehung:
 -Strecken Monaco etc
 -Marken (Red Bull, Mercedes, Audi)
 ![Leonardo_Phoenix_A_sleek_and_futuristic_Formel_1_car_shines_br_1](https://github.com/user-attachments/assets/6a5c6b34-d45d-42e3-8baa-3e31b983887a)
-![Leonardo_Phoenix_A_sleek_and_futuristic_Formel_1_car_shines_br_1](https://github.com/user-attachments/assets/01b48e59-f013-40b7-a760-97aa7baf1572)
+![Leonardo_Kino_XL_In_a_mesmerizing_8k_image_the_background_of_F_0](https://github.com/user-attachments/assets/a4b2066d-679c-4e56-8910-7e154589cf07)
 
 
