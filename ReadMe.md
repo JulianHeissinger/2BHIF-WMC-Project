@@ -10,7 +10,7 @@ Our (Marko, Paul, Luka and Julian) project repository.
 - Pagani
 - Mercedes
 
-### Jets:
+### Jets
 #### Luka
 
 ### Motorräder
