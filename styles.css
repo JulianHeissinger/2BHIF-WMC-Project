@@ -1,5 +1,10 @@
+* {
+    color: whitesmoke;
+}
+
 body {
-    font-family: Arial, serif;
+    background-image: linear-gradient(to bottom right, #262626, black);
+    font-family: Bahnschrift, serif;
 }
 
 h1 {
@@ -9,38 +14,26 @@ h1 {
 }
 
 h3 {
-    font-weight: normal;
+    font-weight: bold;
+    margin-top: 2rem;
     padding: 1rem;
+    font-family: "Bell MT";
 }
 
 span.cool {
     display: block;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
 
 rem {
     color: red;
     font-size: 2.1rem;
+    text-decoration: underline;
 }
 
 #lastSentence {
     padding: 0;
-    text-decoration: underline;
-}
-
-div.grid{
-    display: grid;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-div.selectableDiv {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
 }
 
 p.red {
@@ -52,3 +45,36 @@ p.blue {
   color: blue;
   text-align: center;
 }
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+div.MenuItem {
+    position: relative; /* Position the background text */
+    left: -0.5rem;
+    color: rgba(239, 239, 239, 0.94); /* Grey text */
+    width: 100%; /* Full width */
+    padding: 17% 0.5rem; /* Some padding */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Monospaced;
+}
+
+div.MenuHeader{
+
+}
+
