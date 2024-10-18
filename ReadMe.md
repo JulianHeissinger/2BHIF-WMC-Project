@@ -10,10 +10,8 @@ Our (Marko, Paul, Luka and Julian) project repository.
 - Pagani
 - Mercedes
 
-## Jets: Faszinierende Fakten und Entwicklungen
-
-### 1. Die schnellsten Jets der Welt
--  
+### Jets:
+#### Luka
 
 ### Motorräder
 #### Julian
