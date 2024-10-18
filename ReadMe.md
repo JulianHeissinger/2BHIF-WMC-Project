@@ -18,5 +18,5 @@ Our (Marko, Paul, Luka and Julian) project repository.
 ### Motorräder
 #### Julian
 
-### Monster-Trucks
+### Formel 1
 #### Marko
