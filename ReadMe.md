@@ -15,6 +15,19 @@ Our (Marko, Paul, Luka and Julian) project repository.
 
 ### Motorräder
 #### Julian
++ Entstehung
++ Verwendung
++ Arten
++ Marken
++ Ikonen
++ Moderne
+
+##### Ziele
++ Cooles Aussehen
++ Informativ
++ geschickter Code
+
+**Fertig wenn ich es schön und informativ finde**
 
 ### Formel 1
 #### Marko
