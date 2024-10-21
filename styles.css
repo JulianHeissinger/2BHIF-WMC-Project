@@ -8,9 +8,10 @@ body {
 }
 
 h1 {
-    font-weight: normal;
+    font-size: 2.5rem;
+    font-weight: bold;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 h2 {
@@ -73,7 +74,20 @@ div.MenuItem {
     font-family: Monospaced;
 }
 
-div.MenuHeader{
+div.MenuHeader:hover{
+    animation-name: hover-scale;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
 
+@keyframes hover-scale {
+    0% {
+        scale: 105%
+    }
+    100% {
+        scale: 115%;
+    }
 }
 
