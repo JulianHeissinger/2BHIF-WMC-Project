@@ -3,7 +3,9 @@
 }
 
 body {
+    height: 100%;
     background-image: linear-gradient(to bottom right, #262626, black);
+    background-repeat: no-repeat;
     font-family: Bahnschrift, serif;
 }
 
@@ -18,6 +20,10 @@ h2 {
     font-weight: bold;
     margin-top: 2rem;
     padding: 1rem;
+}
+
+h2.header {
+    text-align: center;
 }
 
 span.cool {
@@ -45,6 +51,7 @@ p.blue {
   color: blue;
   text-align: center;
 }
+
 a {
     text-decoration: none;
     color: red;
@@ -80,6 +87,12 @@ div.MenuHeader:hover{
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
+}
+
+#backButton {
+    float: left;
+    position: fixed;
+    display: block;
 }
 
 @keyframes hover-scale {
