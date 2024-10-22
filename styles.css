@@ -90,8 +90,6 @@ div.MenuHeader:hover{
 }
 
 #backButton {
-    float: left;
-    position: fixed;
     display: block;
 }
 
