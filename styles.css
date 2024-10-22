@@ -22,6 +22,10 @@ h2 {
     padding: 1rem;
 }
 
+p {
+    padding: 1rem;
+}
+
 h2.header {
     text-align: center;
 }
@@ -60,7 +64,7 @@ a {
     font-style: italic;
 }
 
-img {
+div.MenuHeader img {
     position: absolute;
     left: 0;
     width: 100%;
