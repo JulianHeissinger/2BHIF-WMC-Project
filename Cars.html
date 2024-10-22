@@ -6,6 +6,24 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <style>
+        #homeButton
+        {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            transition: opacity 0.5s ease;
+
+            h1
+            {
+                font-size: 400%;
+                text-align: center;
+                margin-top: 0;
+                padding: 10px;
+                position: relative;
+                top: 10px;
+            }
+        }
+
         p {
             margin-bottom: 2rem;
         }
@@ -20,13 +38,13 @@
         }
     </style>
     <body>
-    <button href="Index.html" <img src="Img/Vehicly.jpg" alt="buttonpng" border="0" /></button>
+    <a href="Index.html"> <img id="homeButton" width="64" height="64" src="Img/HomeButton.png" alt="buttonpng"/> </a>
 
-    <h1>Cars</h1>
+    <h1 id="backButton">Cars</h1>
         <h1>History of the Automobile</h1>
 
-                <p>The automobile was born in the late 19th century, with Karl Benz's creation of the first gasoline-powered car in 1885.</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Patent-Motorwagen_Nr.1_Benz_2.jpg/330px-Patent-Motorwagen_Nr.1_Benz_2.jpg" alt="Karl Benz's first gasoline-powered car">
+                <p>The automobile was born in the late 19th century, with Carl Benz's creation of the first gasoline-powered car in 1885.</p>
+                <img style="font-size: xx-small" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Patent-Motorwagen_Nr.1_Benz_2.jpg/330px-Patent-Motorwagen_Nr.1_Benz_2.jpg" alt="Karl Benz's first gasoline-powered car">
 
                 <p>Early models were <em>slow</em>, <em>expensive</em>, and not widely available, but <em>innovations</em> soon followed.</p>
 
@@ -43,3 +61,4 @@
         <h2>New Porsche 911 GT3</h2>
         <img src="Cars/991_992.2_gt3_porsche_dalle_racetrack.jpg" alt="Porsche 911 992.2 GT3 on racetrack">
     </body>
+</html>
