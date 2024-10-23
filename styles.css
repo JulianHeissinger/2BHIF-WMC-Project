@@ -67,6 +67,43 @@ a {
     font-style: italic;
 }
 
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#homeButton
+{
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transition: opacity 0.5s ease;
+
+    h1
+    {
+        font-size: 400%;
+        text-align: center;
+        margin-top: 0;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+    }
+}
+
 div.MenuHeader img {
     position: absolute;
     left: 0;
