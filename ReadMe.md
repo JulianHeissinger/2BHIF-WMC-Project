@@ -1,14 +1,14 @@
 # 2BHIF-WMC-Project
-Our (Marko, Paul, Luka and Julian) project repository.
+<strong> Our (Marko, Paul, Luka and Julian) project repository.</strong>
+
 # Fahrzeuge
 ## Aufteilung:
 ### Autos
 #### Paul
-- BMW
-- Porsche
-- Lamborghini
-- Pagani
-- Mercedes
+- History of the car
+- Different car brands
+- History of each car brand
+- Different models of each car brand
 
 ### Jets
 #### Luka
