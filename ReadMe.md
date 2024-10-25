@@ -12,6 +12,15 @@ Our (Marko, Paul, Luka and Julian) project repository.
 
 ### Jets
 #### Luka
+- Die schnellsten Jets der Welt
+- Der erste Düsenjet
+- Moderne Stealth-Jets
+- Kampfjets der fünften Generation
+- Überschallpassagierjets
+- Jets für Langstreckenföüge
+- Die teuersten Jets
+- Zukunft der Jets: Hyperschallgeschwindigkeit
+- Luxus-Privatjets
 
 ### Motorräder
 #### Julian
