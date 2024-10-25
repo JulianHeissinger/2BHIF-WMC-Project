@@ -5,6 +5,42 @@
     <title>Vehicles</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    .bild-container {
+            position: relative;
+            width: 500px; /* Breite des Bildes */
+            height: 300px; /* Höhe des Bildes */
+            overflow: hidden;
+        }
+
+        .bild-container img {
+            width: 100%;
+            height: 100%;
+            transition: opacity 1.5s ease; /* Sanfter Übergang */
+        }
+
+        .bild-container img.vor {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1; /* Sichtbar */
+        }
+
+        .bild-container img.hinter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0; /* Unsichtbar */
+        }
+
+        .bild-container:hover img.vor {
+            opacity: 0; /* Vorne Bild wird unsichtbar */
+        }
+
+        .bild-container:hover img.hinter {
+            opacity: 1; /* Hintere Bild wird sichtbar */
+        }
+</style>
 <body>
     <a href="Index.html" id="backButton">← return to home</a>
     <h1>Jets</h1>
@@ -75,8 +111,10 @@
 
     <h2>8. Zukunft der Jets: Hyperschallgeschwindigkeit</h2>
     <p>Neue Jets wie Boeing X-51 streben Geschwindigkeiten von Mach 5 und mehr an.</p>
-    <img class="small" src="Img/x51.jpg" alt="Boeing X-51">
-    <img class="small" src="Img/BoeingX51_attached_on_Plane.jpg" alt="BoeingX51 attached on Plane" align="right">
+    <div class="bild-container">
+        <img class="small vor" src="Img/x51.jpg" alt="Boeing X-51">
+        <img class="small hinter" src="Img/BoeingX51_attached_on_Plane.jpg" alt="BoeingX51 attached on Plane">
+    </div>
     <ul>
         <li>Hyperschall: Mach 5+</li>
         <!-- Mach 5 = 6175 bis 7400 km/h -->
@@ -85,8 +123,10 @@
 
     <h2>9. Luxus-Privatjets</h2>
     <p>Privatjets wie der Gulfstream G650 bieten Luxus und Komfort.</p>
-    <img class="small" src="Img/g650.jpg" alt="Gulfstream G650">
-    <img class="small" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin"  align="right">
+    <div class="bild-container">
+        <img class="small vor" src="Img/g650.jpg" alt="Gulfstream G650">
+        <img class="small hinter" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin">
+    </div>
     <ul>
         <li>Reichweite: ca. 12.964 km</li>
         <li>Maximale Geschwindigkeit: Mach 0.925</li>
