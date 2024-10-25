@@ -9,7 +9,7 @@
 
 ## Ausgangssituation / Problemstellung / Vorgeschichte
 
-Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gutes Thema um ein nettes Design zu machen.
+Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gutes Thema, um ein ansprechendes Design zu gestalten.
 
 ---
 
