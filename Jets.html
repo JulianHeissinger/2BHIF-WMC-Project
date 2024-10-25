@@ -5,92 +5,176 @@
     <title>Vehicles</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000000;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 10px;
+            background: rgb(69, 1, 1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #000000;
+            color: white;
+            border: none;
+            transition: background 0.3s;
+            text-align: left; /* Text linksbündig */
+            flex-direction: column; /* Inhalte untereinander anordnen */
+        }
+
+        button:hover {
+            background: #303030;
+        }
+
+        .bild-container {
+            position: relative;
+            width: 500px; /* Breite des Bildes */
+            height: 300px; /* Höhe des Bildes */
+            overflow: hidden;
+        }
+
+        .bild-container img {
+            width: 100%;
+            height: 100%;
+            transition: opacity 1.5s ease; /* Sanfter Übergang */
+        }
+
+        .bild-container img.vor {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1; /* Sichtbar */
+        }
+
+        .bild-container img.hinter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0; /* Unsichtbar */
+        }
+
+        .bild-container:hover img.vor {
+            opacity: 0; /* Vorne Bild wird unsichtbar */
+        }
+
+        .bild-container:hover img.hinter {
+            opacity: 1; /* Hintere Bild wird sichtbar */
+        }
+</style>
 <body>
     <a href="Index.html" id="backButton">← return to home</a>
     <h1>Jets</h1>
 
-    <h2>1. Die schnellsten Jets der Welt</h2>
-    <p>Jets wie die Lockheed SR-71 Blackbird und MiG-25 "Foxbat" fliegen über Mach 3.</p>
-    <!-- Mach 3 = 3705 km/h -->
-    <img class="small" src="Img/sr71_blackbird.jpg" alt="SR-71 Blackbird" >
-    <ul>
-        <li>Mach 3.3 Höchstgeschwindigkeit</li>
-        <!-- Mach 3.3 = 4075,5 km/h -->
-        <li>Erreicht Höhen von bis zu 26 km</li>
-    </ul>
+    <button>
+        <h2>1. Die schnellsten Jets der Welt</h2>
+        <p>Jets wie die Lockheed SR-71 Blackbird und MiG-25 "Foxbat" fliegen über Mach 3.</p>
+        <img class="small" src="Img/sr71_blackbird.jpg" alt="SR-71 Blackbird">
+        <ul>
+            <li>Mach 3.3 Höchstgeschwindigkeit</li>
+            <li>Erreicht Höhen von bis zu 26 km</li>
+        </ul>
+        <!-- Mach 3 = 3705 km/h -->
+    </button>
 
-    <h2>2. Der erste Düsenjet</h2>
-    <p>Die Messerschmitt Me 262 war der erste Düsenjäger im Zweiten Weltkrieg.</p>
-    <img class="small" src="Img/me262.jpg" alt="Me 262">
-    <ul>
-        <li>Geschwindigkeit: 870 km/h</li>
-        <li>Einsatz: 1944</li>
-    </ul>
+    <button>
+        <h2>2. Der erste Düsenjet</h2>
+        <p>Die Messerschmitt Me 262 war der erste Düsenjäger im Zweiten Weltkrieg.</p>
+        <img class="small" src="Img/me262.jpg" alt="Me 262">
+        <ul>
+            <li>Geschwindigkeit: 870 km/h</li>
+            <li>Einsatz: 1944</li>
+        </ul>
+    </button>
 
-    <h2>3. Moderne Stealth-Jets</h2>
-    <p>F-35 und F-22 nutzen Stealth-Technologie, um für Radar unsichtbar zu sein.</p>
-    <!-- Stealth-Jets sind Flugzeuge, die durch spezielle Materialien und Formen schwer auf Radarsystemen zu erkennen sind. -->
-    <img class="small" src="Img/f35.jpg" alt="F-35">
-    <ul>
-        <li>>Gute Stealth-Fähigkeiten</li>
-        <li>Hohe Manöverfähigkeit</li>
-    </ul>
+    <button>
+        <h2>3. Moderne Stealth-Jets</h2>
+        <p>F-35 und F-22 nutzen Stealth-Technologie, um für Radar unsichtbar zu sein.</p>
+        <img class="small" src="Img/f35.jpg" alt="F-35">
+        <ul>
+            <li>Gute Stealth-Fähigkeiten</li>
+            <li>Hohe Manöverfähigkeit</li>
+        </ul>
+        <!-- Stealth-Jets sind Flugzeuge, die durch spezielle Materialien und Formen schwer auf Radarsystemen zu erkennen sind. -->
+    </button>
 
-    <h2>4. Kampfjets der fünften Generation</h2>
-    <!-- Bisher neueste Generation, 6. Generation kommt voraussichtlich in naher Zukunft. 
-     Zu dieser Generation gehören auch die Fähigkeit um Daten von verschiedenen Sensoren zu kombinieren und 
-     so eine verbesserte Situationswahrnehmung zu schaffen. -->
-    <p>Jets wie der Sukhoi Su-57 und F-35 bieten moderne Technik und hohe Manövrierfähigkeit.</p>
-    <img class="small" src="Img/su57.jpg" alt="Su-57">
-    <ul>
-        <li>Hochentwickelte Avionik</li>
-        <!-- Avionik bezeichnet die elektronischen Systeme eines Flugzeugs für Steuerung, Navigation und Kommunikation -->
-        <li>Supercruise-Fähigkeit</li>
-        <!-- Supercruise (Flug mit Überschallgeschwindigkeit ohne Nachbrenner) -->
-    </ul>
+    <button>
+        <h2>4. Kampfjets der fünften Generation</h2>
+        <p>Jets wie der Sukhoi Su-57 und F-35 bieten moderne Technik und hohe Manövrierfähigkeit.</p>
+        <img class="small" src="Img/su57.jpg" alt="Su-57">
+        <ul>
+            <li>Hochentwickelte Avionik</li>
+            <li>Supercruise-Fähigkeit</li>
+        </ul>
+        <!-- Bisher neueste Generation, 6. Generation kommt voraussichtlich in naher Zukunft. 
+        Zu dieser Generation gehören auch die Fähigkeit um Daten von verschiedenen Sensoren zu kombinieren und 
+        so eine verbesserte Situationswahrnehmung zu schaffen. -->
+    </button>
 
-    <h2>5. Überschallpassagierjets</h2>
-    <p>Der Concorde flog mit Mach 2 doppelt so schnell wie der Schall.</p>
-    <img class="small" src="Img/concorde.jpg" alt="Concorde">
-    <ul>
-        <li>Flughöhe: 18.000 Meter</li>
-        <li>Erste Überschall-Passagiermaschine</li>
-    </ul>
+    <button>
+        <h2>5. Überschallpassagierjets</h2>
+        <p>Der Concorde flog mit Mach 2 doppelt so schnell wie der Schall.</p>
+        <img class="small" src="Img/concorde.jpg" alt="Concorde">
+        <ul>
+            <li>Flughöhe: 18.000 Meter</li>
+            <li>Erste Überschall-Passagiermaschine</li>
+        </ul>
+    </button>
 
-    <h2>6. Jets für Langstreckenflüge</h2>
-    <p>Boeing 787 und Airbus A350 ermöglichen lange Flüge durch hohe Effizienz.</p>
-    <img class="small" src="Img/boeing787.jpg" alt="Boeing 787">
-    <ul>
-        <li>Hohe Treibstoffeffizienz</li>
-        <li>Reichweite: über 15.000 km</li>
-    </ul>
+    <button>
+        <h2>6. Jets für Langstreckenflüge</h2>
+        <p>Boeing 787 und Airbus A350 ermöglichen lange Flüge durch hohe Effizienz.</p>
+        <img class="small" src="Img/boeing787.jpg" alt="Boeing 787">
+        <ul>
+            <li>Hohe Treibstoffeffizienz</li>
+            <li>Reichweite: über 15.000 km</li>
+        </ul>
+    </button>
 
-    <h2>7. Die teuersten Jets</h2>
-    <p>Der F-35 Lightning II kostet rund 100 Millionen US-Dollar.</p>
-    <img class="small" src="Img/f35_lightning.jpg" alt="F-35 Lightning II">
-    <ul>
-        <li>Kosten: ca. 100 Mio. USD</li>
-        <li>Multirole Combat Aircraft</li>
-    </ul>
+    <button>
+        <h2>7. Die teuersten Jets</h2>
+        <p>Der F-35 Lightning II kostet rund 100 Millionen US-Dollar.</p>
+        <img class="small" src="Img/f35_lightning.jpg" alt="F-35 Lightning II">
+        <ul>
+            <li>Kosten: ca. 100 Mio. USD</li>
+            <li>Multirole Combat Aircraft</li>
+        </ul>
+    </button>
 
-    <h2>8. Zukunft der Jets: Hyperschallgeschwindigkeit</h2>
-    <p>Neue Jets wie Boeing X-51 streben Geschwindigkeiten von Mach 5 und mehr an.</p>
-    <img class="small" src="Img/x51.jpg" alt="Boeing X-51">
-    <img class="small" src="Img/BoeingX51_attached_on_Plane.jpg" alt="BoeingX51 attached on Plane" align="right">
-    <ul>
-        <li>Hyperschall: Mach 5+</li>
-        <!-- Mach 5 = 6175 bis 7400 km/h -->
-        <li>Zukunft der militärischen Luftfahrt</li>
-    </ul>
+    <button>
+        <h2>8. Zukunft der Jets: Hyperschallgeschwindigkeit</h2>
+        <p>Neue Jets wie Boeing X-51 streben Geschwindigkeiten von Mach 5 und mehr an.</p>
+        <div class="bild-container">
+            <img class="small vor" src="Img/x51.jpg" alt="Boeing X-51">
+            <img class="small hinter" src="Img/BoeingX51_attached_on_Plane.jpg" alt="BoeingX51 attached on Plane">
+        </div>
+        <ul>
+            <li>Hyperschall: Mach 5+</li>
+            <li>Zukunft der militärischen Luftfahrt</li>
+        </ul>
+    </button>
 
-    <h2>9. Luxus-Privatjets</h2>
-    <p>Privatjets wie der Gulfstream G650 bieten Luxus und Komfort.</p>
-    <img class="small" src="Img/g650.jpg" alt="Gulfstream G650">
-    <img class="small" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin"  align="right">
-    <ul>
-        <li>Reichweite: ca. 12.964 km</li>
-        <li>Maximale Geschwindigkeit: Mach 0.925</li>
-    </ul>
+    <button>
+        <h2>9. Luxus-Privatjets</h2>
+        <p>Privatjets wie der Gulfstream G650 bieten Luxus und Komfort.</p>
+        <div class="bild-container">
+            <img class="small vor" src="Img/g650.jpg" alt="Gulfstream G650">
+            <img class="small hinter" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin">
+        </div>
+        <ul>
+            <li>Reichweite: ca. 12.964 km</li>
+            <li>Maximale Geschwindigkeit: Mach 0.925</li>
+        </ul>
+    </button>
 
 </body>
 </html>
