@@ -94,17 +94,17 @@ a {
     left: 10px;
     transition: opacity 0.5s ease;
 
-    h1
-    {
-        font-size: 400%;
-        text-align: center;
-        margin-top: 0;
-        padding: 10px;
-        position: relative;
-        top: 10px;
-    }
 }
 
+h1
+{
+    font-size: 400%;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
 div.MenuHeader img {
     position: absolute;
     left: 0;
@@ -126,23 +126,18 @@ div.MenuItem {
     font-family: Monospaced;
 }
 
+div.MenuHeader {
+    transition: transform 0.3s ease-in-out;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-property: transform;
+    scale: 105%
+}
+
 div.MenuHeader:hover{
-    animation-name: hover-scale;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
+    transform: scale(115%);
 }
 
 #backButton {
     display: block;
-}
-
-@keyframes hover-scale {
-    0% {
-        scale: 105%
-    }
-    100% {
-        scale: 115%;
-    }
 }
