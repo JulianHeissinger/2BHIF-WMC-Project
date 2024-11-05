@@ -8,8 +8,8 @@
 <style>
     body {
         font-family: 'Roboto', sans-serif;
-        background-color: #1a1a1a;
-        color: #f0f0f0;
+        background-color: black;
+        color: white;
         margin: 0;
         padding: 0;
         display: flex;
@@ -18,16 +18,16 @@
 
     .container {
         width: 90%;
-        max-width: 2000px;
+        max-width: 90%;
         padding: 20px;
         background: #333;
         border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        box-shadow: 0 4px 15px black;
     }
 
     h1 {
         text-align: center;
-        color: #fff;
+        color: white;
         margin-bottom: 20px;
     }
 
@@ -35,8 +35,7 @@
         margin-bottom: 20px;
         background-color: #444;
         border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 10px black;
         transition: transform 0.3s;
     }
 
@@ -45,7 +44,7 @@
     }
 
     h2.red {
-        color: #ff4d4d;
+        color: red;
         text-decoration: underline;
         margin: 0;
         padding: 10px;
@@ -56,9 +55,14 @@
     }
 
     .bild-container {
-        width: 100%;
-        overflow: hidden;
+        width: 30%;
         position: relative;
+        top: 5px;
+        display: flex;
+    }
+
+    .bild-container img{
+        position: absolute;
     }
 
     .bild-container img {
@@ -67,14 +71,16 @@
         transition: opacity 1s ease; /* Übergangslänge von einem Bild zum anderen */
     }
 
+
     .bild-container img.vor { /* Das Bild wenn man nicht drüber hovert */
-        position: absolute;
+        position: relative;
         opacity: 1; /* Sichtbar */
     }
 
     .bild-container img.hinter { /* Das Bild das erscheint wenn man drüber hovert */
-        position: absolute;
+        position: fixed;
         opacity: 0; /* Unsichtbar */
+        width: 30%;
     }
 
     .bild-container:hover img.vor {
@@ -94,6 +100,9 @@
     ul li {
         padding: 5px 0;
     }
+
+
+
 </style>
 <body>
     <div class="container">
@@ -221,8 +230,8 @@
             <h2 class="red">9. Luxus-Privatjets</h2>
             <p>Privatjets wie der Gulfstream G650 bieten Luxus und Komfort.</p>
             <div class="bild-container">
-                <img class="small vor" src="Img/g650.jpg" alt="Gulfstream G650">
-                <img class="small hinter" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin">
+                    <img class="small vor" src="Img/g650.jpg" alt="Gulfstream G650">
+                    <img class="small hinter" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin">
             </div>
             <ul>
                 <li>Reichweite: ca. 12.964 km</li>
