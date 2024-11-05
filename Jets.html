@@ -18,29 +18,25 @@
 
     .container {
         width: 90%;
-        max-width: 90%;
-        padding: 20px;
+        max-width: 100%;
+        padding: 30px;
         background: #333;
         border-radius: 10px;
         box-shadow: 0 4px 15px black;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+        font-style: italic;
     }
 
     h1 {
         text-align: center;
         color: white;
         margin-bottom: 20px;
-    }
-
-    .jet-info {
-        margin-bottom: 20px;
-        background-color: #444;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px black;
-        transition: transform 0.3s;
-    }
-
-    .jet-info:hover {
-        transform: scale(1.02);
     }
 
     h2.red {
@@ -52,6 +48,29 @@
 
     p, ul {
         padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        padding: 5px 0;
+    }
+
+    .jet-info {
+        margin-bottom: 20px;
+        background-color: #444;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px black;
+        transition: transform 0.3s;
+        padding: 10px;
+    }
+
+    .jet-info:hover {
+        transform: scale(1.02); /* Leichte Vergrößerung der Box */
     }
 
     .bild-container {
@@ -67,10 +86,9 @@
 
     .bild-container img {
         width: 100%;
-        height: auto;
+        height: 20rem;
         transition: opacity 1s ease; /* Übergangslänge von einem Bild zum anderen */
     }
-
 
     .bild-container img.vor { /* Das Bild wenn man nicht drüber hovert */
         position: relative;
@@ -91,22 +109,62 @@
         opacity: 1; /* Hintere Bild wird sichtbar */
     }
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+    /* Transitions */
+
+    .btn1 {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0.5em 1em;
+        color: black;
+        background-color: #333;
+        border: 10px solid var(--clr-accent);
+        border-radius: 5px;
+
+        /* Längere Version
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        */
+
+        transition: transform 0.3s, background-color 0.3s, color 0.3s; /* Kürzere Version, ease und 0s sind default Werte */
+        /* transition: all 0.3s; Würde auch funktionieren */
     }
 
-    ul li {
-        padding: 5px 0;
+    .btn1:hover {
+        transform: translateY(-10px); /* Y für oben und unten, X für Links und rechts, Stell dir vor wie Koordinatensystem aber - geht nach oben oder links und + nach unten oder rechts*/
+        background-color: #444;
+        color: red;
     }
 
+    /* Animations */
 
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-30px);
+        }
+
+        60% {
+            transform: translateY(-15px);
+        }
+    }
+
+    .bounce {
+        animation: bounce 1.5s ease 1;
+    }
 
 </style>
 <body>
+
+
     <div class="container">
-        <h1>Jets</h1>
+    <button class = "btn1"><a href="Index.html" id="backButton">← Zum Startmenü zurückkehren</a></button>
+
+        <h1 class="bounce">Jets</h1>
 
         <!-- Abschnitt für den schnellsten Jet -->
         <div class="jet-info">
