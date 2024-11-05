@@ -28,7 +28,6 @@
 + Verwendung
 + Arten
 + Marken
-+ Ikonen
 + Moderne
 
 ##### Ziele
