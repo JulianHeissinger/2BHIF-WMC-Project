@@ -137,7 +137,6 @@ div.MenuHeader {
 
 div.MenuHeader:hover{
     transform: scale(115%);
-
 }
 
 #backButton {
@@ -145,7 +144,7 @@ div.MenuHeader:hover{
 }
 
 #underDucati {
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
 
 .TypeTemplate {
