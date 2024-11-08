@@ -1,12 +1,12 @@
 * {
     color: whitesmoke;
-    <--overflow-x: hidden;-->
 }
 
 body {
     background-image: linear-gradient(to bottom right, #262626, black);
     background-repeat: no-repeat;
     font-family: Bahnschrift, serif;
+    overflow-x: hidden;
 }
 
 img.small {
