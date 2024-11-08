@@ -5,7 +5,28 @@
     <title>Vehicles</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<style>
+    .visible {
+        opacity: 1 !important;
+    }
+
+    *:not(#motorcycle-flyby, #body) {
+        opacity: 0;
+    }
+</style>
+<script>
+    // Wait until the page is fully loaded
+    window.addEventListener("load", () => {
+        // Add the 'visible' class to all elements except #motorcycle-flyby
+        document.querySelectorAll("*:not(#motorcycle-flyby, #body)").forEach(element => {
+            element.classList.add("visible");
+        });
+    });
+
+</script>
+<body id="body">
+    <video src="Vid/Flyby.mp4" class="opening" id="motorcycle-flyby" width="100%" autoplay></video>
+
     <a href="Index.html" id="backButton">← return to home</a>
 
     <h1>Motorcycles</h1>

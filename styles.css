@@ -160,3 +160,27 @@ div.MenuHeader:hover{
     right: 6%;
     color: dimgray;
 }
+
+video.opening {
+    z-index: 1;
+    position: fixed;
+    animation-name: video-hide;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+#motorcycle-flyby {
+    animation-duration: 4.6s;
+}
+
+@keyframes video-hide {
+    90% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        display: none;
+    }
+}
