@@ -36,6 +36,7 @@ h2.header {
 }
 
 span.cool {
+    font-size: 1.5rem;
     display: block;
     text-align: center;
     padding: 0.5rem;
@@ -107,6 +108,11 @@ h1
     top: 10px;
 }
 
+h1.header {
+    font-size: 250%;
+    text-decoration: underline;
+}
+
 div.MenuHeader img {
     position: absolute;
     left: 0;
@@ -146,6 +152,10 @@ div.MenuHeader:hover{
 
 #underDucati {
     margin-top: 15rem;
+}
+
+#overYamaha {
+    margin-bottom: 5rem;
 }
 
 .TypeTemplate {
