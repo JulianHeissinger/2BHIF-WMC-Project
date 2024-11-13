@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #262626, black);
+    background-image: radial-gradient(at top left, black, #262626);
     background-repeat: no-repeat;
     font-family: Bahnschrift, serif;
     overflow-x: hidden;
@@ -142,8 +142,44 @@ div.MenuHeader {
     scale: 105%;
 }
 
-div.MenuHeader:hover{
+div.MenuHeader:hover {
     transform: scale(115%);
+}
+
+.text-slider {
+    position: absolute; /* Position the background text */
+    left: -0.5rem;
+    color: rgba(239, 239, 239, 0.94); /* Grey text */
+    width: 100%; /* Full width */
+    padding: 17% 0.5rem; /* Some padding */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    z-index: -1;
+}
+
+.hovered {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+    transform: translateX(30%);
+}
+
+.unhovered {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+    transform: translateX(0%);
+}
+
+li img {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+
+li img:hover {
+    transform: translateX(-25%);
 }
 
 #backButton {

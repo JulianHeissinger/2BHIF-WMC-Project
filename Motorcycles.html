@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Vehicles</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <style>
     .visible {
@@ -99,25 +100,44 @@
         <li>
             <p align="center"><rem>Naked Bikes:</rem></p>
             <span class="cool">They have almost no fairings and a comfortable seating position. They are also some of the most affordable Bikes.</span>
-            <img class="TypeTemplate" src="Img/NakedBikeTemplate.jpg" alt="Naked Bike">
+            <p class="text-slider" id="monsterText">Ducati Monster</p>
+            <img class="TypeTemplate" src="Img/NakedBikeTemplate.jpg" alt="Naked Bike" onmouseenter="AddHover('#monsterText')" onmouseleave="RemHover('#monsterText')">
             <span class="image-subtitle">2024 Ducati Monster SP</span>
         </li>
         <li>
         <p align="center"><rem>Choppers:</rem></p>
         <span class="cool">Made to be very comfortable over long periods of time. Prices vary a lot. They are often seen as a status symbol. They aren't made to be fast, but often have lots of torque.</span>
-        <img class="TypeTemplate" src="Img/ChopperTemplate.jpg" alt="Chopper">
+        <p class="text-slider" id="chopperText">
+            Triumph Bobber <br> <br>
+            Comfortable for hours. <br>
+            <rem>106nm</rem> of torque. <br>
+            And a beautiful sound.
+        </p>
+        <img class="TypeTemplate" src="Img/ChopperTemplate.jpg" alt="Chopper" onmouseenter="AddHover('#chopperText')" onmouseleave="RemHover('#chopperText')">
         <span class="image-subtitle">2024 Triumph Bobber</span>
         </li>
         <li>
             <p align="center"><rem>Supermotos:</rem></p>
             <span class="cool">Light, but fast Motorcycles. They are often more expensive than most people think. Many also available as a two-stroke. They have lots of acceleration, but a relatively low top speed, which is fine because of the lack of wind protection.</span>
-            <img class="TypeTemplate" src="Img/SupermotoTemplate.jpg" alt="Supermoto">
+            <p class="text-slider" id="huskyText">
+                "Husky" 701. <br> <br>
+                The most supermoto Supermoto. <br>
+                One cylinder, 700cc, all the torque. <br>
+                It will lift the front. In all gears.
+            </p>
+            <img class="TypeTemplate" src="Img/SupermotoTemplate.jpg" alt="Supermoto" onmouseenter="AddHover('#huskyText')" onmouseleave="RemHover('#huskyText')">
             <span class="image-subtitle">2024 Husqvarna 701</span>
         </li>
         <li>
             <p align="center"><rem>Sport Bikes:</rem></p>
             <span class="cool">Made for racing. Very expensive, aerodynamic Motorcycles. They have a very aggressive seating position, and lots of power (most of the time).</span>
-            <img class="TypeTemplate" src="Img/SupersportTemplate.jpg" alt="Sport Bike">
+            <p id="ducatiText" class="text-slider">
+                Supersport 950. <br> <br>
+                Fast, light, and beautiful. <br>
+                Is there anything else you want? <br>
+                Maybe the 300 km/h top speed?
+            </p>
+            <img class="TypeTemplate" src="Img/SupersportTemplate.jpg" alt="Sport Bike" onmouseenter="AddHover('#ducatiText')" onmouseleave="RemHover('#ducatiText')">
             <span class="image-subtitle">2024 Ducati Supersport 950</span>
         </li>
     </ul>
