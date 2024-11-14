@@ -13,3 +13,15 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden1');
 hiddenElements.forEach((el) => observer.observe(el)); //Oberserviert jedes Element
+
+function AddHover(element){
+    const e = document.querySelector(element);
+    e.classList.remove("unhovered");
+    e.classList.add("hovered");
+}
+
+function RemHover(element) {
+    const e = document.querySelector(element);
+    e.classList.add("unhovered");
+    e.classList.remove("hovered");
+}
