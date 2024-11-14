@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #262626, black);
+    background-image: radial-gradient(at top left, black, #262626);
     background-repeat: no-repeat;
     font-family: Bahnschrift, serif;
     overflow-x: hidden;
@@ -36,6 +36,7 @@ h2.header {
 }
 
 span.cool {
+    font-size: 1.5rem;
     display: block;
     text-align: center;
     padding: 0.5rem;
@@ -107,6 +108,11 @@ h1
     top: 10px;
 }
 
+h1.header {
+    font-size: 250%;
+    text-decoration: underline;
+}
+
 div.MenuHeader img {
     position: absolute;
     left: 0;
@@ -136,9 +142,44 @@ div.MenuHeader {
     scale: 105%;
 }
 
-div.MenuHeader:hover{
+div.MenuHeader:hover {
     transform: scale(115%);
+}
 
+.text-slider {
+    position: absolute; /* Position the background text */
+    left: -0.5rem;
+    color: rgba(239, 239, 239, 0.94); /* Grey text */
+    width: 100%; /* Full width */
+    padding: 17% 0.5rem; /* Some padding */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    z-index: -1;
+}
+
+.hovered {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+    transform: translateX(30%);
+}
+
+.unhovered {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+    transform: translateX(0%);
+}
+
+li img {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+
+li img:hover {
+    transform: translateX(-25%);
 }
 
 #backButton {
@@ -146,7 +187,11 @@ div.MenuHeader:hover{
 }
 
 #underDucati {
-    margin-top: 5rem;
+    margin-top: 15rem;
+}
+
+#overYamaha {
+    margin-bottom: 5rem;
 }
 
 .TypeTemplate {
@@ -161,55 +206,4 @@ div.MenuHeader:hover{
     position: absolute;
     right: 6%;
     color: dimgray;
-}
-
-#navbar {
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: block;
-    transition: 0.75s;
-}
-
-#navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.background {
-    position: relative;
-    width: 100vw; /* Volle Breite des Bildschirms */
-    height: 100vh; /* Volle Höhe des Bildschirms */
-    overflow: hidden;
-}
-
-.background-image {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Das Bild passt sich dem Container an */
-}
-
-    .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%; /* Breite des Feldes anpassen */
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Schwarzgrauer, halbtransparenter Hintergrund */
-    color: white; /* Weißer Text für guten Kontrast */
-    border-radius: 10px; /* Abgerundete Ecken */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Schatten für Tiefe */
 }

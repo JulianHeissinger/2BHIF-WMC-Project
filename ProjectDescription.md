@@ -56,4 +56,4 @@ Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fa
 + Oct 21, The Index.html was starting to like kind of good.
 + Oct 22, Paul has started intense work on his part of the website.
 + Nov 5, Motorcycles.html was coming to an end.
-+ Nov 8, Marko wrote his first line of code.
++ Nov 8, Marko wrote his first line of code. We also reached 100 commits, yay!
