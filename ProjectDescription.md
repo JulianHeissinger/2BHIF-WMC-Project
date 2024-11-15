@@ -34,9 +34,20 @@ Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gute
 Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Formel 1 beinhaltet. Informative Darstellungen und Interaktives Design.
 
 + Jets: Luka M.
+  + Geschichte
+  + Rekorde
+  + Verwendungen
 + Autos: Paul L.
+  + Marken
+  + Geschichte
 + Motorräder: Julian H.
+  + Geschichte
+  + Arten
+  + Moderne
 + Formel 1: Marko T.
+  + Geschichte
+  + Teams
+  + Ikonen
 
 ---
 
