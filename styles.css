@@ -90,10 +90,8 @@ a {
 
 #homeButton
 {
-    color: white;
+    color: whitesmoke;
     position: fixed;
-    top: 10px;
-    left: 10px;
     display: inline-block;
     transition: 0.3s;
 }
