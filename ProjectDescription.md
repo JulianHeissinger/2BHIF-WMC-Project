@@ -33,10 +33,10 @@ Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gute
 
 Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Formel 1 beinhaltet. Informative Darstellungen und Interaktives Design.
 
-+ Jets
-+ Autos
-+ Motorräder
-+ Formel 1
++ Jets: Luka M.
++ Autos: Paul L.
++ Motorräder: Julian H.
++ Formel 1: Marko T.
 
 ---
 
