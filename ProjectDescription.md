@@ -69,7 +69,7 @@ Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fa
 
 **Meilensteine:**  
 
-+ Oct 21, The Index.html was starting to look kind of good.
-+ Oct 22, Paul has started intense work on his part of the website.
-+ Nov 5, Motorcycles.html was coming to an end.
-+ Nov 8, Marko wrote his first line of code. We also reached 100 commits, yay!
++ Oct 21, Index.html hat angefangen besser auszusehen.
++ Oct 22, Paul hat angefangen hart an seinem Teil zu arbeiten.
++ Nov 5, Motorcycles.html war auf dem Weg (Inhaltlich) fertig zu werden.
++ Nov 8, Marko hat seine erste Zeile Code geschrieben. Wir haben auch 100 Commits erreicht, yay!
