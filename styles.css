@@ -88,12 +88,24 @@ a {
     height: auto;
 }
 
-#homeButton
+.homeButton
 {
     color: whitesmoke;
     position: fixed;
     display: inline-block;
     transition: 0.3s;
+}
+
+.homeButton_For_Jets {
+    color: whitesmoke;
+    position: fixed;
+    display: inline-block;
+    transition: 0.3s;
+    width: 64px;
+    height: 64px;
+    margin-left: 0.55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 h1
@@ -252,6 +264,8 @@ li img:hover {
     }
 }
 
+/* Back Button */
+
 .btn1 {
     font-size: 2rem;
     font-weight: 700;
@@ -260,6 +274,7 @@ li img:hover {
     background-color: #333;
     border: 10px solid var(--clr-accent);
     border-radius: 5px;
+    
     /* Längere Version
     transition-property: transform;
     transition-duration: 0.3s;
@@ -267,13 +282,24 @@ li img:hover {
     transition-delay: 0s;
     */
 
-    transition: transform 0.3s, background-color 0.3s, color 0.3s; /* Kürzere Version, ease und 0s sind default Werte */
+    transition: transform 0.3s, background-color 0.3s; /* Kürzere Version, ease und 0s sind default Werte */
     /* transition: all 0.3s; Würde auch funktionieren */
 }
 
 .btn1:hover {
     transform: translateY(-10px); /* Y für oben und unten, X für Links und rechts, Stell dir vor wie Koordinatensystem aber - geht nach oben oder links und + nach unten oder rechts*/
     background-color: #444;
+}
+
+/* Container */
+
+.mini-container {
+    width: 5%;
+    max-width: 5%;
+    margin-right: 0.8%;
+    margin-left: 0.6%;
+    background: #333;
+    box-shadow: 0 4px 15px black;
 }
 
 .jet-info-container {
@@ -290,12 +316,12 @@ li img:hover {
     border-radius: 8px;
     box-shadow: 0 2px 10px black;
     padding: 10px;
+    text-align: center;
 
     transition: all 1s ease;
 }
 
 .jet-info:hover {
-    text-align: center;
     transform: scale(1.02); /* Leichte Vergrößerung der Box */
     background-color: rgb(46, 46, 46); /* Hintergrund verändert sich stätig */
 }
@@ -400,5 +426,12 @@ li img:hover {
     to { scale: 1 1; }
 }
 
-/* Jets Styles Ende */
+/* Farbiger Text dessen Farbe sich weiter im Text verändert */
 
+.Red_to_White{
+    background: linear-gradient(to right, red, white);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Jets Styles Ende */

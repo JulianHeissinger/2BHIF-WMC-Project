@@ -60,20 +60,24 @@
 
     .container {
         width: 90%;
-        max-width: 100%;
+        max-width: 90%;
         padding: 30px;
         background: #333;
-        border-radius: 10px;
         box-shadow: 0 4px 15px black;
     }
 
 </style>
 <body>
     <div class="scroll-watcher"></div> <!-- Der Balken oben der anzeigt wie weit man bei der Seite ist -->
-    <div class="container">
-    <button class="btn1"><a href="Index.html" id="backButton">← Back to the Menu</a></button>
 
-        <h1 class="bounce">Jets</h1>
+    <div class="mini-container"> <!-- Der Container der Links ist -->
+    <a href="Index.html"> <img class="homeButton_For_Jets" src="Img/HomeButton_white.png" alt="buttonpng"/> </a>
+    <!-- Weitere Symbole: Motorcycle, car, Formel 1 Car -->
+    
+    </div>
+
+    <div class="container">
+        <h1 class="bounce Red_to_White">Beyond the Clouds: Jets</h1>
 
         <section class="hidden1">
             <div class="jet-info-container">
@@ -237,7 +241,6 @@
             </div>
         </section>
 
-    <button class = "btn1"><a href="Index.html" id="backButton">← Back to the Menu</a></button>
     </div>
 </body>
 </html>
