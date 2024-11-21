@@ -33,6 +33,24 @@ Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gute
 
 Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Formel 1 beinhaltet. Informative Darstellungen und Interaktives Design.
 
++ Jets: Luka M.
+  + Geschichte
+  + Rekorde
+  + Verwendungen
++ Autos: Paul L.
+  + Marken
+  + Geschichte
++ Motorräder: Julian H.
+  + Geschichte
+  + Arten
+  + Moderne
++ Formel 1: Marko T.
+  + Geschichte
+  + Teams
+  + Ikonen
+  + Populäre Formel 1 Fahrer(Schuhmacher,Hamiltion,Verstappen...)
+  + Teams like Redbull Mercedes...
+
 ---
 
 ## Kritische Erfolgsfaktoren / Critical Success Factors
@@ -53,7 +71,7 @@ Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fa
 
 **Meilensteine:**  
 
-+ Oct 21, The Index.html was starting to like kind of good.
-+ Oct 22, Paul has started intense work on his part of the website.
-+ Nov 5, Motorcycles.html was coming to an end.
-+ Nov 8, Marko wrote his first line of code.
++ Oct 21, Index.html hat angefangen besser auszusehen.
++ Oct 22, Paul hat angefangen hart an seinem Teil zu arbeiten.
++ Nov 5, Motorcycles.html war auf dem Weg (Inhaltlich) fertig zu werden.
++ Nov 8 Wir haben auch 100 Commits erreicht, yay!
