@@ -1,3 +1,5 @@
+// Luka (Jets)
+
 // Wird ausgeführt wenn Sichtbarkeit der Objekte verändert wird z.Bsp. durch scrollen
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -13,6 +15,8 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden1');
 hiddenElements.forEach((el) => observer.observe(el)); //Oberserviert jedes Element
+
+// Julian (Motorcycles)
 
 function AddHover(element){
     const e = document.querySelector(element);
