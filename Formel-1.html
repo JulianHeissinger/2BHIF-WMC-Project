@@ -3,8 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Die Geschichte und Entwicklung der Formel 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 900px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #444;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        section ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            max-width: 30%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
 
@@ -13,48 +92,63 @@
     <p>Ein umfassender Einblick in die Anfänge, legendäre Teams, Rennstrecken und Marken der Formel 1</p>
 </header>
 
-<section>
+<nav>
+    <a href="#entstehung">Entstehung</a>
+    <a href="#fahrer">Fahrer</a>
+    <a href="#teams">Teams</a>
+    <a href="#strecken">Strecken</a>
+    <a href="#marken">Marken</a>
+</nav>
+
+<section id="entstehung">
     <h2>Entstehung der Formel 1</h2>
-    <p>Die Formel 1 begann offiziell 1950 mit dem ersten Weltmeisterschaftslauf im britischen Silverstone. Die Wurzeln des Sports reichen jedoch bis in die 1920er Jahre zurück, als Automobilhersteller begannen, ihre Fahrzeuge auf der Rennstrecke zu testen und sich gegenseitig zu messen. Ziel war es, Geschwindigkeit, Innovation und Zuverlässigkeit der Autos unter Beweis zu stellen.</p>
-    <p>Nach dem Zweiten Weltkrieg entwickelte sich der Rennsport weiter, und die Formel 1 wurde zu einer weltweiten Plattform für technische Innovation und Fahrerfähigkeiten. Der Motorsport zog Millionen von Fans an und wurde schnell zum prestigeträchtigsten Wettbewerb im Autorennsport.</p>
+    <p>Die Formel 1 begann offiziell 1950 mit dem ersten Weltmeisterschaftslauf im britischen Silverstone...</p>
 </section>
 
-<section>
+<section id="fahrer">
+    <h2>Bekannte Fahrer und wichtige Persönlichkeiten</h2>
+    <ul>
+        <li><strong>Michael Schumacher</strong>: Sieben Weltmeistertitel...</li>
+        <li><strong>Ayrton Senna</strong>: Spektakuläre Rennfähigkeiten...</li>
+    </ul>
+</section>
+
+<section id="teams">
     <h2>Die "Big 3" - Dominierende Teams der Formel 1</h2>
-    <p>Die Formel 1 hat einige Teams hervorgebracht, die als die "Big 3" bekannt sind und die den Sport maßgeblich geprägt haben. Diese Teams sind:</p>
     <ul>
-        <li><strong>Ferrari</strong>: Das italienische Team ist das älteste und erfolgreichste in der Formel 1-Geschichte. Ferrari ist bekannt für seine legendären roten Autos und hat zahlreiche Fahrer- und Konstrukteurstitel gewonnen.</li>
-        <li><strong>McLaren</strong>: Das britische Team hat zahlreiche Erfolge in den 1970er und 1980er Jahren gefeiert. Es ist bekannt für legendäre Fahrer wie Ayrton Senna und Lewis Hamilton, die beide Weltmeistertitel für das Team errungen haben.</li>
-        <li><strong>Williams</strong>: Ein weiteres britisches Team, das in den 1980er und 1990er Jahren dominierte. Williams hat viele Erfolge gefeiert und ist für seine technischen Innovationen und starken Partnerschaften bekannt.</li>
+        <li><strong>Ferrari</strong>: Das älteste und erfolgreichste Team...</li>
+        <li><strong>McLaren</strong>: Legendäre Fahrer wie Ayrton Senna...</li>
     </ul>
 </section>
 
-<section>
-    <h2>Legendäre Strecken der Formel 1</h2>
-    <p>Die Formel 1 umfasst einige der anspruchsvollsten und berühmtesten Rennstrecken weltweit. Einige dieser legendären Strecken sind:</p>
-    <ul>
-        <li><strong>Monaco</strong>: Die Straßen von Monte Carlo bieten eine der anspruchsvollsten und aufregendsten Strecken im Rennkalender. Enge Kurven und die Nähe der Leitplanken machen das Rennen zu einem echten Spektakel.</li>
-        <li><strong>Silverstone</strong>: Die erste Strecke der Formel 1 und ein Klassiker in Großbritannien. Silverstone steht für hohe Geschwindigkeiten und weite Kurven.</li>
-        <li><strong>Spa-Francorchamps</strong>: Die Strecke in Belgien ist bekannt für ihre dramatischen Höhenunterschiede und die berüchtigte Kurve Eau Rouge. Sie gilt als eine der herausforderndsten Strecken der Welt.</li>
-        <li><strong>Monza</strong>: Das Heimrennen von Ferrari in Italien und bekannt als "Tempel der Geschwindigkeit". Monza ist eine der schnellsten Strecken im Kalender und zieht jedes Jahr eine leidenschaftliche Fangemeinde an.</li>
-    </ul>
+<div class="image-gallery">
+    <img src="images/ferrari.jpg" alt="Ferrari">
+    <img src="images/mclaren.jpg" alt="McLaren">
+    <img src="images/williams.jpg" alt="Williams">
+</div>
+
+<section id="strecken">
+    <h2>Legendäre Strecken</h2>
+    <p>Die Formel 1 umfasst einige der anspruchsvollsten und berühmtesten Rennstrecken weltweit...</p>
 </section>
 
-<section>
-    <h2>Große Marken und Hersteller in der Formel 1</h2>
-    <p>In der Formel 1 treten zahlreiche namhafte Automarken und unabhängige Teams an, um sich den Weltmeistertitel zu sichern. Einige der prominentesten Marken und Teams der letzten Jahre sind:</p>
+<section id="marken">
+    <h2>Große Marken und Hersteller </h2>
     <ul>
-        <li><strong>Red Bull Racing</strong>: Seit seinem Einstieg in die Formel 1 hat Red Bull Racing mehrere Weltmeistertitel gewonnen und ist für seine aggressive Rennstrategie und Innovationen bekannt.</li>
-        <li><strong>Mercedes-AMG Petronas</strong>: Mercedes dominiert seit den frühen 2010er Jahren und hat viele Titel sowohl bei den Fahrern als auch bei den Konstrukteuren gewonnen, vor allem durch Fahrer wie Lewis Hamilton.</li>
-        <li><strong>Audi</strong>: Audi hat kürzlich bekannt gegeben, dass es in die Formel 1 einsteigen wird, was in der Motorsportwelt große Begeisterung ausgelöst hat. Der Einstieg ist für die kommenden Jahre geplant und wird Audi mit hochmodernen Technologien ins Rennen schicken.</li>
-        <li><strong>Alpine</strong>: Das französische Team ist der Nachfolger von Renault und setzt seine Tradition mit einer starken Präsenz in der Formel 1 fort.</li>
+        <li><strong>Red Bull Racing</strong>: Aggressive Rennstrategie...</li>
+        <li><strong>Mercedes-AMG Petronas</strong>: Dominierend seit 2010...</li>
     </ul>
 </section>
 
 <footer>
-    <p>&copy; 2024 Formel 1 Geschichte und Entwicklung</p>
-    <p>Diese Seite wurde erstellt, um einen Überblick über die Formel 1 und ihre spannenden Facetten zu geben.</p>
+    <p>&copy; Formel 1 Geschichte und Entwicklung</p>
 </footer>
+<section id="highlights">
+    <h2> Formula 1 image</h2>
+    <figure>
+        <img src="Img/Formel1car.jpg" alt="Red Bull Racing Car " >
+    </figure>
+</section>
 
 </body>
 </html>
