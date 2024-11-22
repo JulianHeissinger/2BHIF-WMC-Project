@@ -455,6 +455,7 @@ video.opening {
 @keyframes scroll-watcher {
     to { scale: 1 1; }
 }
+
 /* Farbiger Text dessen Farbe sich weiter im Text verändert */
 
 .Red_to_White {
@@ -462,4 +463,5 @@ video.opening {
     background-clip: text;
     color: transparent;
 }
+
 /* Jets Styles Ende */
