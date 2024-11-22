@@ -23,9 +23,8 @@ Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gute
 
 **Nicht-Ziele:** 
 
-+ Den Leser verwirren
-+ Inkonsistentes Design
-+ Den Rahmen sprengen
++ Keine Fahrräder
++ Keine Züge
 
 ---
 
@@ -44,7 +43,7 @@ Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Form
   + Geschichte
   + Arten
   + Moderne
-+ Formel 1: Marko T.
++ Boote: Marko T.
   + Geschichte
   + Teams
   + Ikonen
@@ -71,7 +70,3 @@ Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fa
 
 **Meilensteine:**  
 
-+ Oct 21, Index.html hat angefangen besser auszusehen.
-+ Oct 22, Paul hat angefangen hart an seinem Teil zu arbeiten.
-+ Nov 5, Motorcycles.html war auf dem Weg (Inhaltlich) fertig zu werden.
-+ Nov 8 Wir haben auch 100 Commits erreicht, yay!
