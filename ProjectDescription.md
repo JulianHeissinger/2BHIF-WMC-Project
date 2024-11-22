@@ -48,7 +48,7 @@ Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Form
   + Geschichte
   + Teams
   + Ikonen
-  + Populäre Formel 1 Fahrer(Schuhmacher,Hamiltion,Verstappen...)
+  + Populare Formel 1 Fahrer(Schuhmacher,Hamiltion,Verstappen...)
   + Teams like Redbull Mercedes...
 
 ---
