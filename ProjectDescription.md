@@ -67,7 +67,7 @@ Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fa
 
 **Projektende:**
 - Ereignis: Unsere Zufriedenheit und vor allem die der Lehrpersonen.
-- Termin: TBD.
+- Termin: TBD (um den 14.2.2025 herum).
 
 **Meilensteine:**  
 
