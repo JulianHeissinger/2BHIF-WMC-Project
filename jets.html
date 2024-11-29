@@ -13,16 +13,9 @@
         color: white;
         margin: 0;
         padding: 0;
-        display: flex;
         justify-content: center;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-        font-weight: bolder;
-        font-size: x-large;
-        font-style: italic;
+        height: 100%;
+        width: 100%;
     }
 
     h1 {
@@ -32,13 +25,11 @@
     }
 
     h2.red {
-        color: rgb(255, 5, 5);
+        background: linear-gradient(to right, red, white);
+        background-clip: text;
+        color: transparent;
         text-decoration: underline;
         margin: 0;
-        padding: 10px;
-    }
-
-    p, ul {
         padding: 10px;
     }
 
@@ -48,199 +39,225 @@
         margin: 0;
     }
 
-    ul li {
-        padding: 5px 0;
-    }
-
-    section {
-        place-items: center;
-        align-content: center;
-    }
-
-    .container {
-        width: 90%;
-        max-width: 90%;
-        height: 100%;
-        padding: 30px;
-        background: #333;
-        box-shadow: 0 4px 15px black;
+    li {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
     }
 
 </style>
 <body>
-    <div class="scroll-watcher"></div> <!-- Der Balken oben der anzeigt wie weit man bei der Seite ist -->
 
-    <div class="mini-container"> <!-- Der Container der Links ist -->
-    <a href="index.html"> <img class="homeButton_For_Jets" src="Img/HomeButton_white.png" alt="buttonpng"/> </a>
-    <!-- Weitere Symbole: Motorcycle, car, Formel 1 Car -->
+    <h1 class="bounce Red_to_White">Beyond the Clouds: Jets</h1>
+
+    <h2 class="margin-bottom Red_to_White text-centered">The big jet brands: Lockheed Martin, Boeing, and Dassault Aviation.</h2>
+
+    <section>
+
+        <div class="MenuHeader">
+            <img src="Img/Lockheed Martin.jpg" alt="Lockheed Martin">
+            <div class="MenuItem">
+                Lockheed Martin
+            </div>
+        </div>
     
-    </div>
-
-    <div class="container">
-        <h1 class="bounce Red_to_White">Beyond the Clouds: Jets</h1>
-
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">1. The Fastest Jets in the World</h2>
-                    <p>Jets like the Lockheed SR-71 Blackbird and MiG-25 "Foxbat" fly at speeds over Mach 3.</p>
-                    <ul>
-                        <!-- Mach 3 = 3705 km/h -->
-                        <li>Mach 3.3 top speed</li> 
-                        <li>Reaches altitudes of up to 26 km</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/sr71_blackbird.jpg" alt="SR-71 Blackbird">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/sr71_blackbird_hover.jpg" alt="SR-71 Blackbird Hover">
-                </div>
+        <div class="MenuHeader">
+            <img src="Img/Boeing.jpg" alt="Boeing">
+            <div class="MenuItem">
+                Boeing
             </div>
-        </section>
-                
-        <!-- Section for the first jet fighter -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">2. The First Jet Fighter</h2>
-                    <p>The Messerschmitt Me 262 was the first jet fighter in World War II.</p>
-                    <ul>
-                        <li>Speed: 870 km/h</li>
-                        <li>Deployed: 1944</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/me262.jpg" alt="Me 262">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/me262_hover.jpg" alt="Me 262 Hover">
-                </div>
+        </div>
+    
+        <div class="MenuHeader">
+            <img src="Img/Dassault Aviation.jpg" alt="Dassault Aviation">
+            <div class="MenuItem">
+                Dassault Aviation
             </div>
-        </section>
+        </div>
 
-        <!-- Section for modern stealth jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">3. Modern Stealth Jets</h2>
-                    <p>The F-35 and F-22 use stealth technology to be invisible to radar.</p>
-                    <ul>
-                        <li>Excellent stealth capabilities</li>
-                        <li>High maneuverability</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/f35.jpg" alt="F-35">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/f35_hover.jpg" alt="F-35 Hover">
-                </div>
+    </section>
+
+    <h1 class="margin-top Red_to_White">Interesting facts about jets</h1>
+
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">1. The Fastest Jets in the World</h2>
+                <p>Jets like the Lockheed SR-71 Blackbird & MiG-25 "Foxbat" fly at speeds over Mach 3</p>
+                <ul>
+                    <!-- Mach 3 = 3705 km/h -->
+                    <li>Mach 3.3 top speed</li> 
+                    <li>Reaches altitudes of up to 26 km</li>
+                </ul>
             </div>
-        </section>
-
-        <!-- Section for fifth-generation fighter jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">4. Fifth-Generation Fighter Jets</h2>
-                    <p>Jets like the Sukhoi Su-57 and F-35 offer advanced technology and high maneuverability.</p>
-                    <ul>
-                        <li>Advanced avionics</li>
-                        <li>Supercruise capability</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/su57.jpg" alt="Su-57">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/su57_hover.jpg" alt="Su-57 Hover">
-                </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/sr71_blackbird.jpg" alt="SR-71 Blackbird">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/sr71_blackbird_hover.jpg" alt="SR-71 Blackbird Hover">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Section for supersonic passenger jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">5. Supersonic Passenger Jets</h2>
-                    <p>The Concorde flew at Mach 2, twice the speed of sound.</p>
-                    <ul>
-                        <li>Altitude: 18,000 meters</li>
-                        <li>First supersonic passenger aircraft</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/concorde.jpg" alt="Concorde">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/concorde_hover.jpg" alt="Concorde Hover">
-                </div>
+    <!-- Section for the first jet fighter -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">2. The First Jet Fighter</h2>
+                <p>The Messerschmitt Me 262 was the first jet fighter in World War II.</p>
+                <ul>
+                    <li>Speed: 870 km/h</li>
+                    <li>Deployed: 1944</li>
+                </ul>
             </div>
-        </section>
-
-        <!-- Section for long-haul jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">6. Jets for Long-Distance Flights</h2>
-                    <p>The Boeing 787 and Airbus A350 enable long flights with high efficiency.</p>
-                    <ul>
-                        <li>High fuel efficiency</li>
-                        <li>Range: over 15,000 km</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/boeing787.jpg" alt="Boeing 787">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/boeing787_hover.jpg" alt="Boeing 787 Hover">
-                </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/me262.jpg" alt="Me 262">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/me262_hover.jpg" alt="Me 262 Hover">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Section for the most expensive jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">7. The Most Expensive Jets</h2>
-                    <p>The F-35 Lightning II costs around 100 million USD.</p>
-                    <ul>
-                        <li>Cost: approx. 100 million USD</li>
-                        <li>Multirole combat aircraft</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/f35_lightning.jpg" alt="F-35 Lightning II">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/f35_lightning_hover.jpg" alt="F-35 Lightning II Hover">
-                </div>
+    <!-- Section for modern stealth jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">3. Modern Stealth Jets</h2>
+                <p>The F-35 and F-22 use stealth technology to be invisible to radar.</p>
+                <ul>
+                    <li>Excellent stealth capabilities</li>
+                    <li>High maneuverability</li>
+                </ul>
             </div>
-        </section>
-
-        <!-- Section for the future of jets: hypersonic speed -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">8. Future of Jets: Hypersonic Speed</h2>
-                    <p>New jets like the Boeing X-51 aim for speeds of Mach 5 and above.</p>
-                    <ul>
-                        <li>Hypersonic: Mach 5+</li>
-                        <li>Future of military aviation</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/x51.jpg" alt="Boeing X-51">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/BoeingX51_attached_on_Plane.jpg" alt="Boeing X-51 attached on Plane">
-                </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/f35.jpg" alt="F-35">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/f35_hover.jpg" alt="F-35 Hover">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Section for luxury private jets -->
-        <section class="hidden1">
-            <div class="jet-info-container">
-                <div class="jet-info">
-                    <h2 class="red">9. Luxury Private Jets</h2>
-                    <p>Private jets like the Gulfstream G650 offer luxury and comfort.</p>
-                    <ul>
-                        <li>Range: approx. 12,964 km</li>
-                        <li>Max speed: Mach 0.925</li>
-                    </ul>
-                </div>
-                <div class="bild-container card">
-                    <img class="small vor bild-shadowed-round-borders" src="Img/g650.jpg" alt="Gulfstream G650">
-                    <img class="small hinter bild-shadowed-round-borders" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin">
-                </div>
+    <!-- Section for fifth-generation fighter jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">4. Fifth-Generation Fighter Jets</h2>
+                <p>Jets like the Sukhoi Su-57 and F-35 offer advanced technology and high maneuverability.</p>
+                <ul>
+                    <li>Advanced avionics</li>
+                    <li>Supercruise capability</li>
+                </ul>
             </div>
-        </section>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/su57.jpg" alt="Su-57">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/su57_hover.jpg" alt="Su-57 Hover">
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- Section for supersonic passenger jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">5. Supersonic Passenger Jets</h2>
+                <p>The Concorde flew at Mach 2, twice the speed of sound.</p>
+                <ul>
+                    <li>Altitude: 18,000 meters</li>
+                    <li>First supersonic passenger aircraft</li>
+                </ul>
+            </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/concorde.jpg" alt="Concorde">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/concorde_hover.jpg" alt="Concorde Hover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for long-haul jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">6. Jets for Long-Distance Flights</h2>
+                <p>The Boeing 787 and Airbus A350 enable long flights with high efficiency.</p>
+                <ul>
+                    <li>High fuel efficiency</li>
+                    <li>Range: over 15,000 km</li>
+                </ul>
+            </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/boeing787.jpg" alt="Boeing 787">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/boeing787_hover.jpg" alt="Boeing 787 Hover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for the most expensive jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">7. The Most Expensive Jets</h2>
+                <p>The F-35 Lightning II costs around 100 million USD.</p>
+                <ul>
+                    <li>Cost: approx. 100 million USD</li>
+                    <li>Multirole combat aircraft</li>
+                </ul>
+            </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/f35_lightning.jpg" alt="F-35 Lightning II">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/f35_lightning_hover.jpg" alt="F-35 Lightning II Hover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for the future of jets: hypersonic speed -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">8. Future of Jets: Hypersonic Speed</h2>
+                <p>New jets like the Boeing X-51 aim for speeds of Mach 5 and above.</p>
+                <ul>
+                    <li>Hypersonic: Mach 5+</li>
+                    <li>Future of military aviation</li>
+                </ul>
+            </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/x51.jpg" alt="Boeing X-51">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/BoeingX51_attached_on_Plane.jpg" alt="Boeing X-51 attached on Plane Hover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for luxury private jets -->
+    <section class="hidden1">
+        <div class="jet-info-container">
+            <div class="jet-info">
+                <h2 class="red">9. Luxury Private Jets</h2>
+                <p>Private jets like the Gulfstream G650 offer luxury and comfort.</p>
+                <ul>
+                    <li>Range: approx. 12,964 km</li>
+                    <li>Max speed: Mach 0.925</li>
+                </ul>
+            </div>
+            <div class="bild-container card">
+                <img class="small vor bild-shadowed-round-borders" src="Img/g650.jpg" alt="Gulfstream G650">
+                <img class="small hinter bild-shadowed-round-borders" src="Img/gulfstream_g650_interior_cabin.jpg" alt="Gulfstream Interior Cabin Hover">
+            </div>
+        </div>
+    </section>
+
+    <h2 class="margin-top">Back Buttons</h2>
+
+    <a href="cars.html" title="Car Icon">
+        <img src="Img/car-icon.png" class="icons left-margin-for-first-icon" alt="car-icon">
+    </a>
+
+    <a href="motorcycles.html" title="Motorcycle Icon">
+        <img src="Img/motorrad-icon.png" class="icons" alt="motorcycle-icon">
+    </a>
+
+    <a href="formel-1.html" title="Boat Icon">
+        <img src="Img/boot-icon.png" class="icons" alt="boat-icon">
+    </a>
+
+    <a href="" title="Race Icon">
+        <img src="Img/rennen-icon.png" class="icons" alt="race-icon">
+    </a>
+
 </body>
 </html>
