@@ -426,6 +426,8 @@ video.opening {
     animation: bounce 1.5s ease 1;
 }
 
+/* Animationen für "hidden" und "show" elemente */
+
 .hidden1 {
     opacity: 0;
     filter: blur(5px); /* Inhalt wird etwas verschwommen angezeigt */
@@ -439,36 +441,33 @@ video.opening {
     transform: translateY(0); /* Box wird in die Mitte verschoben */
 }
 
-/* Balken der mit scrollen sich mitbewegt */
-
-.scroll-watcher {
-    /* Das benutzt man damit es oberen Rand des Screens von Links nach Rechts geht
-    height: 10px;
-    width: 100%;
-    */
-
-    width: 10px;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    background-color: rgb(125, 2, 2);
-    scale: 0 0;
-    transform-origin: top; /* Start der Animation oben */
-    animation: scroll-watcher linear;
-    animation-timeline: scroll();
-}
-
-@keyframes scroll-watcher {
-    to { scale: 1 1; }
-}
-
 /* Farbiger Text dessen Farbe sich weiter im Text verändert */
 
 .Red_to_White {
     background: linear-gradient(to right, red, white);
     background-clip: text;
     color: transparent;
+}
+
+/* Icons */
+
+.left-margin-for-first-icon {
+    margin-left: 8%;
+}
+
+.icons {
+    width: 7%;
+    height: 7%;
+    border-radius: 50%; /* Wird zu einem Kreis gemacht */
+    margin-right: 3%;
+    margin-bottom: 0.7%;
+    
+    transition: all 1s ease;
+}
+
+.icons:hover {
+    background-color: grey;
+    padding: 0.5%; /* Vergrößert Abstand vom Bild zum Rand */
 }
 
 /* Jets Styles Ende */
