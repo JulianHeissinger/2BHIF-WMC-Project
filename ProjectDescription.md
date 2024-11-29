@@ -57,7 +57,7 @@ Das Ziel der Website ist es, die Leser für mindestens einen der behandelten Fah
 
 ## Termine / Milestones
 ### Deutsch:
--Projektstart:
+**Projektstart:**
 -Ereignis: Brainstorming, Aufgabenverteilung, erster Commit
 -Termin: 18. Oktober 2024
 
