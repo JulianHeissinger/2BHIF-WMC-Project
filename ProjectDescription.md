@@ -23,14 +23,14 @@ Es besteht Interesse von allen Beteiligten an diesem Thema. Es ist auch ein gute
 
 **Nicht-Ziele:** 
 
-+ Keine Fahrräder
-+ Keine Züge
++ Fahrräder
++ Züge
 
 ---
 
 ## Projektinhalte / Project Contents
 
-Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Formel 1 beinhaltet. Informative Darstellungen und Interaktives Design.
+Die Seite bietet spannende Informationen zu Jets, Autos, Motorrädern und Booten, verpackt in einem ansprechenden und interaktiven Design.
 
 + Jets: Luka M.
   + Geschichte
@@ -44,29 +44,29 @@ Es wird eine Website, welche Informationen zu Jets, Autos, Motorrädern und Form
   + Arten
   + Moderne
 + Boote: Marko T.
-  + Geschichte
-  + Teams
-  + Ikonen
-  + Populare Formel 1 Fahrer(Schuhmacher,Hamiltion,Verstappen...)
-  + Teams like Redbull Mercedes...
+  + Bootstypen
+  + Bootspflege
+  + Bootszubehör
 
 ---
 
 ## Kritische Erfolgsfaktoren / Critical Success Factors
-
-Der Leser schließt die Website mit Interesse und Neugier an mindestens einem Fahrzeug. Er liest sich danach evtl. sogar weiter in das Thema hinein.
+Das Ziel der Website ist es, die Leser für mindestens einen der behandelten Fahrzeugtypen zu begeistern. Idealerweise weckt sie so viel Interesse, dass die Nutzer anschließend selbst weiter recherchieren.
 
 ---
 
 ## Termine / Milestones
 ### Deutsch:
-**Projektstart:**
-- Ereignis: Brainstorming, Erster Commit, Bildung aller Teammitglieder
-- Termin: 18. Oct 24
+Projektstart:
+-Ereignis: Brainstorming, Aufgabenverteilung, erster Commit
+-Termin: 18. Oktober 2024
 
 **Projektende:**
 - Ereignis: Unsere Zufriedenheit und vor allem die der Lehrpersonen.
 - Termin: TBD (um den 14.2.2025 herum).
 
-**Meilensteine:**  
+**Meilensteine:**
+18.10.2024: Projektbeginn, Aufgabenverteilung und erste Inhalte zu Fahrzeugtypen sammeln
+14.02.2025: Präsentation und Abgabe
+
 
