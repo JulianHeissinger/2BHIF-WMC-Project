@@ -66,7 +66,7 @@ Das Ziel der Website ist es, die Leser für mindestens einen der behandelten Fah
 - Termin: TBD (um den 14.2.2025 herum).
 
 **Meilensteine:**
-18.10.2024: Projektbeginn, Aufgabenverteilung und erste Inhalte zu Fahrzeugtypen sammeln
-14.02.2025: Präsentation und Abgabe
+- 18.10.2024: Projektbeginn, Aufgabenverteilung und erste Inhalte zu Fahrzeugtypen sammeln
+- 14.02.2025: Präsentation und Abgabe
 
 
