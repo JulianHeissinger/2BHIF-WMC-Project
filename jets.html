@@ -3,59 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Jets</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- General Style used by everyone -->
+    <link rel="stylesheet for jets" href="jets-style.css"> <!-- Style only used by jets.html -->
     <script defer src="app.js"></script>
 </head>
-<style>
-    body {  
-        font-family: 'Roboto', sans-serif;
-        background-color: black;
-        color: white;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-    }
-
-    h1 {
-        text-align: center;
-        color: white;
-        margin-bottom: 20px;
-    }
-
-    h2.red {
-        background: linear-gradient(to right, red, white);
-        background-clip: text;
-        color: transparent;
-        text-decoration: underline;
-        margin: 0;
-        padding: 10px;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    li {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 0.5rem;
-    }
-
-</style>
 <body>
 
-    <!--TODO finish back buttons-->
+    <h1 class="bounce red-to-white">Beyond the Clouds: Jets</h1>
 
-    <h1 class="bounce Red_to_White">Beyond the Clouds: Jets</h1>
+    <h2 class="margin-bottom red-to-white text-centered">The big jet brands: Lockheed Martin, Boeing, and Dassault Aviation.</h2>
 
-    <h2 class="margin-bottom Red_to_White text-centered">The big jet brands: Lockheed Martin, Boeing, and Dassault Aviation.</h2>
-
+    <!-- Section for the 3 big jet brands -->
     <section>
-
         <div class="MenuHeader">
             <img src="Img/Lockheed Martin.jpg" alt="Lockheed Martin">
             <div class="MenuItem">
@@ -76,11 +35,11 @@
                 Dassault Aviation
             </div>
         </div>
-
     </section>
 
-    <h1 class="margin-top Red_to_White">Interesting facts about jets</h1>
+    <h1 class="margin-top red-to-white">Interesting facts about jets</h1>
 
+    <!-- Section for the fastest jets -->
     <section class="hidden1">
         <div class="jet-info-container">
             <div class="jet-info">
@@ -243,27 +202,30 @@
         </div>
     </section>
 
-    <h2 class="margin-top Red_to_White">Back Buttons:</h2>
+    <h2 class="margin-top red-to-white">Back Buttons:</h2>
 
-    <a href="cars.html" title="Car Icon">
-        <img src="Img/car-icon_white.png" class="icons left-margin-for-first-icon" alt="car-icon">
-    </a>
-
-    <a href="motorcycles.html" title="Motorcycle Icon">
-        <img src="Img/motorcycle-icon-white.png" class="icons" alt="motorcycle-icon">
-    </a>
-
-    <a href="index.html" title="Home Icon">
-        <img src="Img/HomeButton_white.png" class="icons" alt="homebutton-icon">
-    </a>
-
-    <a href="boats.html" title="Boat Icon">
-        <img src="Img/boot-icon-white.png" class="icons" alt="boat-icon">
-    </a>
-
-    <a href="" title="Race Icon">
-        <img src="Img/race-icon-white.png" class="icons" alt="race-icon">
-    </a>
+    <!-- Section for buttons -->
+    <section>
+        <a href="cars.html" title="Car Icon">
+            <img src="Img/car-icon_white.png" class="icons left-margin-for-first-icon" alt="car-icon">
+        </a>
+    
+        <a href="motorcycles.html" title="Motorcycle Icon">
+            <img src="Img/motorcycle-icon-white.png" class="icons" alt="motorcycle-icon">
+        </a>
+    
+        <a href="index.html" title="Home Icon">
+            <img src="Img/HomeButton_white.png" class="icons" alt="homebutton-icon">
+        </a>
+    
+        <a href="boats.html" title="Boat Icon">
+            <img src="Img/boot-icon-white.png" class="icons" alt="boat-icon">
+        </a>
+    
+        <a href="" title="Race Icon">
+            <img src="Img/race-icon-white.png" class="icons" alt="race-icon">
+        </a>
+    </section>
 
 </body>
 </html>
