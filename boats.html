@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boats</title>
     <style>
-        /* Allgemeine Stile */
-
+        /* General Styles */
         body {
             background-image: radial-gradient(at top left, black, #262626);
             font-family: Arial, serif;
@@ -21,12 +20,11 @@
             text-align: center;
             padding: 2rem;
         }
-       header h1
-        {
-            margin: 0;
-            font-size:2.5rem ;
-        }
 
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
 
         /* Navigation */
         nav {
@@ -47,8 +45,7 @@
             text-decoration: underline;
         }
 
-        .section-boats
-        {
+        .section-boats {
             background-color: rgba(255, 255, 255, 0.1);
             margin: 2rem auto;
             padding: 1.5rem;
@@ -58,38 +55,38 @@
             max-width: 800px;
         }
 
-        .section-boats h2
-        {
+        .section-boats h2 {
             text-align: center;
             border-bottom: 2px solid #d32f2f;
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             font-size: 1.8rem;
         }
-        .boot
-        {
+
+        .boot {
             display: flex;
             align-items: center;
             gap: 1.5rem;
             margin-bottom: 2rem;
         }
-        .boot img
-        {
+
+        .boot img {
             width: 150px;
             height: auto;
-            border-radius:8px;
-            box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
-        .boot h3{
+
+        .boot h3 {
             margin: 0;
             font-size: 1.6rem;
         }
-        .boot p
-        {
+
+        .boot p {
             margin: 0;
             line-height: 1.5;
-
         }
+
         footer {
             background-color: #000;
             color: #fff;
@@ -97,6 +94,7 @@
             padding: 1rem;
             margin-top: 2rem;
         }
+
         @media (max-width: 600px) {
             .boot {
                 flex-direction: column;
@@ -106,6 +104,23 @@
 
             .boot img {
                 width: 100%;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .section-boats {
+                padding: 1rem;
+            }
+
+            .section-boats h2 {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
             }
         }
     </style>
@@ -122,19 +137,47 @@
     <a href="boats.html">Boats</a>
 </nav>
 
+<section class="section-boats">
+    <h2>Noats.</h2>
+    <img src="Img/Boat111.webp" alt="Boat">
+    <p>Boats are a great way to explore the world's oceans, rivers, and lakes. They come in many shapes and sizes, from small fishing boats to luxury yachts.</p>
+</section>
 
 <section class="section-boats">
     <h2>Experience the world of boats.</h2>
-
-<div class="boot">
-    <img src="Img/Speedboot1.webp" alt="Speedboat">
-    <div>
-        <h3>Motorboote</h3>
-        <p>Motorboote bieten Flexibilität und Geschwindigkeit. Sie eignen sich für Wassersportarten wie Wakeboarding oder als Transportmittel auf größeren Gewässern.</p>
+    <div class="boot">
+        <img src="Img/Speedboot1.webp" alt="Speedboat">
+        <div>
+            <h3>Speedboats</h3>
+            <p>Motorboote bieten Flexibilität und Geschwindigkeit. Sie eignen sich für Wassersportarten wie Wakeboarding oder als Transportmittel auf größeren Gewässern.</p>
+        </div>
     </div>
-</div>
-
 </section>
+
+<section class="section-boats">
+    <h2>Segelboote</h2>
+    <div class="boot">
+        <img src="Img/" alt="Sailboat">
+        <div>
+            <h3>Segelboote</h3>
+            <p>Segelboote nutzen die Kraft des Windes, um sich fortzubewegen. Sie sind ideal für entspannte Fahrten und sportliche Regatten.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-boats">
+    <h2>Yachten</h2>
+    <div class="boot">
+        <img src="Img/" alt="Yacht">
+        <div>
+            <h3>Luxusyachten</h3>
+            <p>Luxusyachten bieten höchsten Komfort und Luxus auf dem Wasser. Sie sind perfekt für lange Reisen und exklusive Veranstaltungen.</p>
+        </div>
+    </div>
+</section>
+
 <footer>
     <p>&copy; 2024 Boats World. All rights reserved.</p>
 </footer>
+</body>
+</html>
