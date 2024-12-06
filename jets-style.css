@@ -25,6 +25,11 @@ h2.red {
     margin: 0%;
 }
 
+
+img.small {
+    width: 30%;
+}
+
 ul {
     list-style-type: none;
     padding: 0%;
@@ -283,6 +288,18 @@ only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
     background-color: grey;
     padding: 0.5%; /* Distance between picture and border */
     transform: translateY(-10px);
+}
+
+.homeButton_For_Jets {
+    color: whitesmoke;
+    position: fixed;
+    display: inline-block;
+    transition: 0.3s;
+    width: 64px;
+    height: 64px;
+    margin-left: 0.55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /* Jets Styles End */
