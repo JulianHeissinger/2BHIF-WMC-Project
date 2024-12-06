@@ -219,6 +219,14 @@ li {
     animation: bounce 1.5s ease 1;
 }
 
+/* Colors that passes over from left (red) to right (white) */
+
+.red-to-white {
+    background: linear-gradient(to right, red, white);
+    background-clip: text;
+    color: transparent;
+}
+
 /* Animationen for "hidden" and "show" elements */
 
 .hidden1 {
@@ -235,7 +243,7 @@ li {
 }
 
 /* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" highly experimental doesn't work on all browsers 
-only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
+only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
 
 @keyframes appear {
     from {
@@ -255,14 +263,6 @@ only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
     animation: appear linear;
     animation-timeline: view(); /* HIGHLY experimental!!! */
     animation-range: entry 0% cover;
-}
-
-/* Colors that passes over from left (red) to right (white) */
-
-.red-to-white {
-    background: linear-gradient(to right, red, white);
-    background-clip: text;
-    color: transparent;
 }
 
 /* Icons */
