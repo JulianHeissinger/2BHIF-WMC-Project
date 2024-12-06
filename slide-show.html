@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>SlidShow- Cars</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #image-track > .image {
+        width: 40vmin;
+        height: 56vmin;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #image-track {
+        display: flex;
+        gap: 4vmin;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+</style>
+<body>
+    <div id="image-track">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-wardmediauk-3647693.jpg" alt="Slide Show Images">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-toms-svilans-375611-1005617.jpg" alt="Slide Show Images">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-pashal-337909.jpg" alt="Slide Show Images">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-mohit-hambiria-92377455-9643708.jpg" alt="Slide Show Images">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-mikebirdy-2365572.jpg" alt="Slide Show Images">
+        <img class="image" src="Cars/Images/slide-show-car-images/pexels-mayday-1545743.jpg" alt="Slide Show Images">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
