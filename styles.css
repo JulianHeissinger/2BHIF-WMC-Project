@@ -1,3 +1,5 @@
+/* general colors and fonts */
+
 * {
     color: whitesmoke;
 }
@@ -9,9 +11,8 @@ body {
     overflow-x: hidden;
 }
 
-img.small {
-    width: 30%;
-}
+
+/* text-based elements*/
 
 h1 {
     font-size: 2.5rem;
@@ -20,10 +21,19 @@ h1 {
     padding: 0.5rem;
 }
 
+h1.header {
+    font-size: 250%;
+    text-decoration: underline;
+}
+
 h2 {
     font-weight: bold;
     margin-top: 2rem;
     padding: 1rem;
+}
+
+h2.header {
+    text-align: center;
 }
 
 p {
@@ -31,8 +41,12 @@ p {
     padding: 1rem;
 }
 
-h2.header {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
 }
 
 span.cool {
@@ -48,88 +62,13 @@ rem {
     text-decoration: underline;
 }
 
-#lastSentence {
-    padding: 0;
+.image-subtitle {
+    position: absolute;
+    right: 6%;
+    color: dimgray;
 }
 
-p.red {
-  color: red;
-  text-align: center;
-}
-
-p.blue {
-  color: blue;
-  text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: red;
-    font-weight: bolder;
-    font-size: x-large;
-    font-style: italic;
-}
-
-.text-overlay {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: x-large;
-    text-align: center;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.image-container {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-#homeButton {
-    color: white;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    transition: opacity 0.5s ease;
-}
-
-#homeButton {
-    color: white;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    transition: opacity 0.5s ease;
-}
-
-.homeButton_For_Jets {
-    color: whitesmoke;
-    position: fixed;
-    display: inline-block;
-    transition: 0.3s;
-    width: 64px;
-    height: 64px;
-    margin-left: 0.55%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-h1
-{
-    font-size: 400%;
-    text-align: center;
-    margin-top: 0;
-    padding: 10px;
-    position: relative;
-    top: 10px;
-}
-
-h1.header {
-    font-size: 250%;
-    text-decoration: underline;
-}
+/* div-based elements */
 
 div.MenuHeader img {
     position: absolute;
@@ -164,6 +103,48 @@ div.MenuHeader:hover {
     transform: scale(115%);
 }
 
+/* images and videos */
+
+img.TypeTemplate {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+li img {
+    transition: transform 1s ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+
+li img:hover {
+    transform: translateX(-25%);
+}
+
+video.opening {
+    z-index: 1;
+    position: fixed;
+    animation-name: video-hide;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes video-hide {
+    90% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        display: none;
+    }
+}
+
+/* animated stuff */
+
 .text-slider {
     position: absolute; /* Position the background text */
     left: -0.5rem;
@@ -190,14 +171,20 @@ div.MenuHeader:hover {
     transform: translateX(0%);
 }
 
-li img {
-    transition: transform 1s ease-in-out;
-    transition-delay: 0s;
-    transition-property: transform;
+/* IDs */
+
+#lastSentence {
+    padding: 0;
 }
 
-li img:hover {
-    transform: translateX(-25%);
+
+
+#homeButton {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transition: opacity 0.5s ease;
 }
 
 #backButton {
@@ -212,40 +199,55 @@ li img:hover {
     margin-bottom: 5rem;
 }
 
-.TypeTemplate {
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-}
-
-.image-subtitle {
-    position: absolute;
-    right: 6%;
-    color: dimgray;
-}
-
-video.opening {
-    z-index: 1;
-    position: fixed;
-    animation-name: video-hide;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-}
-
 #motorcycle-flyby {
     animation-duration: 4.6s;
 }
 
-@keyframes video-hide {
-    90% {
-        opacity: 100%;
-    }
+/* other html files */
 
-    100% {
-        opacity: 0%;
-        display: none;
-    }
+div.scroll-container img {
+    padding: 10px;
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.text-overlay {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1
+{
+    font-size: 400%;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+
+#homeButton {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transition: opacity 0.5s ease;
 }
