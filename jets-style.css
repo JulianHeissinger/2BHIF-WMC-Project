@@ -11,6 +11,8 @@ body {
     width: 100%;
 }
 
+/* Headers */
+
 h1 {
     text-align: center;
     color: white;
@@ -25,10 +27,7 @@ h2.red {
     margin: 0%;
 }
 
-
-img.small {
-    width: 30%;
-}
+/* Lists */
 
 ul {
     list-style-type: none;
@@ -42,9 +41,15 @@ li {
     padding-bottom: 1%;
 }
 
+img.small {
+    width: 30%;
+}
+
 .text-centered {
     text-align: center;
 }
+
+/* Margins */
 
 .margin-top {
     margin-top: 6%;
@@ -53,6 +58,8 @@ li {
 .margin-bottom {
     margin-bottom: 4%;
 }
+
+/* Custom "--angle" value */
 
 @property --angle {  /* --angle was created by me (Luka) and is a custom value that only exist here */
     syntax: "<angle>";
