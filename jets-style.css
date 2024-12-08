@@ -11,6 +11,8 @@ body {
     width: 100%;
 }
 
+/* Headers */
+
 h1 {
     text-align: center;
     color: white;
@@ -25,10 +27,7 @@ h2.red {
     margin: 0%;
 }
 
-
-img.small {
-    width: 30%;
-}
+/* Lists */
 
 ul {
     list-style-type: none;
@@ -42,9 +41,15 @@ li {
     padding-bottom: 1%;
 }
 
+img.small {
+    width: 30%;
+}
+
 .text-centered {
     text-align: center;
 }
+
+/* Margins */
 
 .margin-top {
     margin-top: 6%;
@@ -53,6 +58,8 @@ li {
 .margin-bottom {
     margin-bottom: 4%;
 }
+
+/* Custom "--angle" value */
 
 @property --angle {  /* --angle was created by me (Luka) and is a custom value that only exist here */
     syntax: "<angle>";
@@ -219,6 +226,14 @@ li {
     animation: bounce 1.5s ease 1;
 }
 
+/* Colors that passes over from left (red) to right (white) */
+
+.red-to-white {
+    background: linear-gradient(to right, red, white);
+    background-clip: text;
+    color: transparent;
+}
+
 /* Animationen for "hidden" and "show" elements */
 
 .hidden1 {
@@ -235,7 +250,7 @@ li {
 }
 
 /* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" highly experimental doesn't work on all browsers 
-only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
+only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
 
 @keyframes appear {
     from {
@@ -255,14 +270,6 @@ only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
     animation: appear linear;
     animation-timeline: view(); /* HIGHLY experimental!!! */
     animation-range: entry 0% cover;
-}
-
-/* Colors that passes over from left (red) to right (white) */
-
-.red-to-white {
-    background: linear-gradient(to right, red, white);
-    background-clip: text;
-    color: transparent;
 }
 
 /* Icons */
