@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boats</title>
+    <link rel="stylesheet" href="styles.css">
+
     <style>
         /* General Styles */
         body {
-            background-image: radial-gradient(at top left, black, #262626);
+            background-color: #000; /* Schwarzer Hintergrund bleibt */
             font-family: Arial, serif;
             color: whitesmoke;
             margin: 0;
@@ -15,15 +17,10 @@
         }
 
         header {
-            background-color: #000;
+            background-color: #111;
             color: #fff;
             text-align: center;
             padding: 2rem;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
         }
 
         .margin-top {
@@ -42,15 +39,15 @@
             text-decoration: none;
             margin: 0 1rem;
             font-weight: bold;
-            transition: text-decoration 0.3s;
+            transition: color 0.3s; /* Hover-Effekt für Navigation */
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #ffcc00;
         }
 
         .section-boats {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: #111;
             margin: 2rem auto;
             padding: 1.5rem;
             border: 2px solid #d32f2f;
@@ -79,6 +76,11 @@
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.5s ease-in-out; /* Hover-Effekt für Bilder */
+        }
+
+        .boot img:hover {
+            transform: scale(1.05);
         }
 
         .boot h3 {
@@ -92,7 +94,7 @@
         }
 
         footer {
-            background-color: #000;
+            background-color: #111;
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -128,16 +130,7 @@
             }
         }
 
-        /* Hover effect for images */
-        img.hoverable {
-            transition: transform 0.2s ease-in-out;
-        }
-
-        img.hoverable:hover {
-            transform: scale(1.1);
-        }
-
-        /* New Styles */
+        /* Additional Styles */
         .section-boats .description {
             font-style: italic;
             color: #ccc;
@@ -148,6 +141,21 @@
             color: #d32f2f;
             font-weight: bold;
         }
+        .boat img {
+            width: 150px;
+            height: auto;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 2rem;
+        }
+        @media (max-width: 600px) {
+            .boot img {
+                width: 100%; /* Bilder füllen den verfügbaren Raum */
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -163,27 +171,20 @@
 </nav>
 
 <h1 class="margin-top"></h1>
-
 <section>
     <div class="MenuHeader">
-        <img class="hoverable" src="Img/Yacht%20Image.jpg" alt="Lockheed Martin">
-        <div class="MenuItem">
-            Lockheed Martin
-        </div>
+        <img class="hoverable" src="Img/Yacht%20Image(1).jpg" alt="Lockheed Martin">
+        <div class="MenuItem">Yacht</div>
     </div>
 
     <div class="MenuHeader">
-        <img class="hoverable" src="Img/Family%20Boat%20Trip.jpg" alt="Boeing">
-        <div class="MenuItem">
-            Boeing
-        </div>
+        <img class="hoverable" src="Img/Family%20Boat%20Trip(1).jpg" alt="Boeing">
+        <div class="MenuItem">Family Boat Trip</div>
     </div>
 
     <div class="MenuHeader">
-        <img class="hoverable" src="Img/Boat%20on%20water.jpg" alt="Dassault Aviation">
-        <div class="MenuItem">
-            Dassault Aviation
-        </div>
+        <img class="hoverable" src="Img/Boat%20on%20water.jpg" alt="">
+        <div class="MenuItem">Leisure Boat</div>
     </div>
 </section>
 
@@ -236,6 +237,40 @@
             <p>Fischerboote sind speziell für das Angeln konzipiert. Sie bieten Stabilität und Platz für die Ausrüstung.</p>
         </div>
     </div>
+</section>
+
+<!-- Section: Key Facts About Boats -->
+<section class="section-boats">
+    <h2>Key Facts About Boats</h2>
+    <p>Boats have been essential for human history, serving purposes like transportation, fishing, and leisure. They come in many forms, offering something for everyone.</p>
+    <div class="testimonial">
+        "<span class="highlight">Nothing is more relaxing than a day on the water.</span> It's pure freedom!" - Captain Smith
+    </div>
+</section>
+<!-- Section: Popular Boat Trips -->
+<section class="section-boats">
+    <h2>Popular Boat Trips</h2>
+    <div class="boot">
+        <img src="Img/CaribbeanCruise.jpg" alt="Caribbean Cruise" width="150">
+        <div>
+            <h3>Caribbean Islands</h3>
+            <p>Explore the turquoise waters and stunning beaches of the Caribbean on luxury boat cruises.</p>
+        </div>
+    </div>
+    <div class="boot">
+        <img src="Img/SunsetSailing.jpg" alt="Sunset Sailing" width="150">
+        <div>
+            <h3>Sunset Sailing</h3>
+            <p>Experience romantic moments on a sailboat as the sun kisses the horizon.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section: Why Choose Boating? -->
+<section class="section-boats">
+    <h2>Why Choose Boating?</h2>
+    <p>Boating offers <span class="highlight">adventure</span>, <span class="highlight">relaxation</span>, and a chance to connect with nature. Whether you prefer speedboats, sailboats, or yachts, there's something magical about being on the water.</p>
 </section>
 
 <footer>
