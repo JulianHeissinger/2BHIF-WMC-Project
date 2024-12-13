@@ -42,7 +42,7 @@ li {
 }
 
 img.small {
-    width: 30%;
+    width: 25%;
 }
 
 .text-centered {
@@ -109,16 +109,16 @@ img.small {
 .jet-info-container {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 3%; /* Distance between jet-info-container (text) and bild-container (picture) */
     margin-bottom: 20px;
-    width: 99.5%;
-}
+    width: 99%;
+}   
 
 .jet-info {
     flex: 1;
     width: 70%;
     margin-bottom: 1%;
-    margin-left: 1%;
+    margin-left: 3%;
     background-color: var(--clr-accent);
     border-radius: 8px;
     box-shadow: 0 2px 10px black;
@@ -278,25 +278,6 @@ only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
     margin-left: 25%;
 }
 
-.icons {
-    width: 7%;
-    height: 7%;
-    border-radius: 50%; /* From rectangle (Rechteck) to circle */
-    margin-right: 3%;
-    margin-bottom: 0.7%;
-    box-shadow: 0 2px 10px black;
-    padding: 0.25%;
-    
-    transition: all 1s ease;
-}
-
-.icons:hover {
-    box-shadow: 0 0 15px grey, 0 0 30px lightgrey;
-    background-color: grey;
-    padding: 0.5%; /* Distance between picture and border */
-    transform: translateY(-10px);
-}
-
 .homeButton_For_Jets {
     color: whitesmoke;
     position: fixed;
@@ -307,6 +288,41 @@ only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
     margin-left: 0.55%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #333;
+    padding-top: 1%;
+    position: fixed;
+    bottom: 0; /* On which position it's going to be displayed */
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.5s;
+}
+
+.nav-list a:hover {
+    background-color: #575757;
+    border-radius: 4px;
 }
 
 /* Jets Styles End */
