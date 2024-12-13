@@ -11,14 +11,32 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(90deg, #1C1C1C, #333333);
+    border-bottom: 3px solid #FF4500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
 /* text-based elements*/
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    padding: 0.5rem;
+    font-size: 3.5rem;
+    color: #FF4500;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.tagline span {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    color: #EEEEEE;
+}
+#lastSentence rem {
+    color: #FF4500;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 h1.header {
