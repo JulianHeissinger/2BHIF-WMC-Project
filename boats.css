@@ -242,6 +242,11 @@ footer {
         margin-bottom: 2rem;
     }
 
+    .smaller-picture {
+        height: 30%;
+        width: 30%;
+    }
+
 <<<<<<< HEAD
 header, footer {
     text-align: center;
