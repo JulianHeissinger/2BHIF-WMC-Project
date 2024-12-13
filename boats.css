@@ -11,17 +11,18 @@
     .home-button {
         color: white;
         position: fixed;
-        top: 10px;
-        left: 10px;
+        top: 0;
+        left: 0;
         transition: opacity 0.5s ease;
+        padding: 10px;
     }
 
     .home-button img {
-        width: 50%; /* Passe die Größe an */
-        height: auto; /* Bewahrt das Seitenverhältnis */
-        max-width: 300px; /* Optionale Begrenzung der maximalen Breite */
-        float: left; /* Positioniert das Bild links */
-        margin-right: 1rem; /* Fügt einen Abstand rechts hinzu */
+        width: 50%;
+        height: auto;
+        max-width: 300px;
+        float: left;
+        margin-right: 1rem;
     }
 
     header {
