@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     font-family: Bahnschrift, serif;
     overflow-x: hidden;
+    margin: 0;
 }
 
 header {
@@ -27,12 +28,14 @@ h1 {
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
 .tagline span {
     display: block;
     font-size: 1.3rem;
     margin: 0.5rem 0;
     color: #EEEEEE;
 }
+
 #lastSentence rem {
     color: #FF4500;
     font-style: italic;
@@ -195,8 +198,6 @@ video.opening {
     padding: 0;
 }
 
-
-
 #homeButton {
     color: white;
     position: fixed;
@@ -268,4 +269,39 @@ h1
     top: 10px;
     left: 10px;
     transition: opacity 0.5s ease;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #333;
+    padding-top: 1%;
+    position: fixed;
+    bottom: 0; /* On which position it's going to be displayed */
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.5s;
+}
+
+.nav-list a:hover {
+    background-color: #575757;
+    border-radius: 4px;
 }
