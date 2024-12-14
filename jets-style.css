@@ -272,22 +272,39 @@ only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
     animation-range: entry 0% cover;
 }
 
-/* Icons */
+/* Navbar for Jets */
 
-.left-margin-for-first-icon {
-    margin-left: 25%;
+.navbar-for-jets {
+    background-color: #333;
+    padding-top: 1%;
+    position: fixed;
+    bottom: 0; /* On which position it's going to be displayed */
+    width: 100%;   
 }
 
-.homeButton_For_Jets {
-    color: whitesmoke;
-    position: fixed;
-    display: inline-block;
-    transition: 0.3s;
-    width: 64px;
-    height: 64px;
-    margin-left: 0.55%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+.nav-list-for-jets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-for-jets li {
+    margin: 0 15px;
+}
+
+.nav-list-for-jets a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.nav-list-for-jets a:hover {
+    background-color: #575757;
 }
 
 /* Jets Styles End */
