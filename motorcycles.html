@@ -7,14 +7,6 @@
     <script src="app.js"></script>
 </head>
 <style>
-    .visible {
-        opacity: 1 !important;
-    }
-
-    *:not(#motorcycle-flyby, #body) {
-        opacity: 0;
-    }
-
     p, span {
         margin: auto;
         max-width: 70%;
@@ -24,18 +16,7 @@
         text-align: center;
     }
 </style>
-<script>
-    // Wait until the page is fully loaded
-    window.addEventListener("load", () => {
-        // Add the 'visible' class to all elements except #motorcycle-flyby
-        document.querySelectorAll("*:not(#motorcycle-flyby, #body)").forEach(element => {
-            element.classList.add("visible");
-        });
-    });
-</script>
 <body id="body">
-    <video src="Vid/Flyby.mp4" class="opening" id="motorcycle-flyby" width="105%" style="left: -0.5rem" autoplay></video>
-
     <a href="index.html" id="backButton">← return to home</a>
 
     <h1 id="top-header">Motorcycles</h1>
