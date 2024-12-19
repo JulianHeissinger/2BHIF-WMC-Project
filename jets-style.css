@@ -59,12 +59,12 @@ img.small {
 
 /* Margins */
 
-.margin-top {
-    margin-top: 6%;
-}
-
 .margin-bottom {
     margin-bottom: 4%;
+}
+
+.margin-top {
+    margin-top: 5%;
 }
 
 /* Custom "--angle" value */
