@@ -49,12 +49,14 @@ li {
     padding-bottom: 1%;
 }
 
-img.small {
-    width: 25%;
-}
-
 .text-centered {
     text-align: center;
+}
+
+/* Pictures */
+
+img.small {
+    width: 25%;
 }
 
 /* Margins */
@@ -260,7 +262,7 @@ only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
     animation-range: entry 0% cover;
 }
 
-/* Navbar for Jets */
+/* Navigation-Bar for Jets */
 
 .navbar-for-jets {
     background-color: #333;
