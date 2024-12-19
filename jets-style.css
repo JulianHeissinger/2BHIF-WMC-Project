@@ -214,26 +214,6 @@ img.small {
     opacity: 0.5;
 }
 
-/* Bounce animation, element bounces up and down */
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-
-    40% {
-        transform: translateY(-20%);
-    }
-
-    60% {
-        transform: translateY(-20%);
-    }
-}
-
-.bounce {
-    animation: bounce 1.5s ease 1;
-}
-
 /* Colors that passes over from left (red) to right (white) */
 
 .red-to-white {
@@ -313,6 +293,26 @@ only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
 
 .nav-list-for-jets a:hover {
     background-color: #575757;
+}
+
+/* Bounce animation, element bounces up and down */
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20%);
+    }
+
+    60% {
+        transform: translateY(-20%);
+    }
+}
+
+.bounce {
+    animation: bounce 1.5s ease 1;
 }
 
 /* Jets Styles End */
