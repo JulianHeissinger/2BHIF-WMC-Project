@@ -237,8 +237,8 @@ img.small {
     transform: translateY(0); /* Box is placed in the center height */
 }
 
-/* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" highly experimental doesn't work on all browsers 
-only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
+/* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" is experimental doesn't work on all browsers 
+only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
 
 @keyframes appear {
     from {
@@ -256,7 +256,7 @@ only Chrome suported one's, ass of 29.11.2024 (Stand 29.11.2024) */
 
 .block {
     animation: appear linear;
-    animation-timeline: view(); /* HIGHLY experimental!!! */
+    animation-timeline: view(); /* HIGHLY experimental!!! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
     animation-range: entry 0% cover;
 }
 
