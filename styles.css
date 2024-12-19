@@ -274,3 +274,32 @@ h1
 .navbar a:hover {
     color: black;
 }
+
+nav.scrolled {
+    animation: 1s ease-out;
+    animation-fill-mode: forwards;
+    animation-name: backgroundTransparent;
+}
+
+nav.unscrolled {
+    animation: 1s ease-out;
+    animation-fill-mode: forwards;
+    animation-name: backgroundNotTransparent;
+}
+
+@keyframes backgroundTransparent {
+    to {
+        background-color: transparent;
+    }
+}
+
+
+
+@keyframes backgroundNotTransparent {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: #d32f2f;
+    }
+}

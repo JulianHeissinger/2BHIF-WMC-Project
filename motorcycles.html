@@ -16,6 +16,29 @@
         text-align: center;
     }
 </style>
+<script>
+    addEventListener('scroll', addScrolledToNavbar);
+
+    function addScrolledToNavbar() {
+        const e = document.querySelector('.navbar');
+        e.classList.add("scrolled");
+        e.classList.remove("unscrolled");
+    }
+
+    function remScrolledToNavbar() {
+        const e = document.querySelector('.navbar');
+        e.classList.add("unscrolled");
+        e.classList.remove("scrolled");
+    }
+
+    function onScrollToTop() {
+        if (window.scrollY === 0) {
+            remScrolledToNavbar()
+        }
+    }
+
+    window.addEventListener('scroll', onScrollToTop);
+</script>
 <body id="body">
     <a href="index.html" id="backButton">← return to home</a>
 

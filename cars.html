@@ -6,6 +6,27 @@
         <title>Cars</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+    <script>
+        function addScrolledToNavbar() {
+            const e = document.querySelector('.navbar');
+            e.classList.add("scrolled");
+            e.classList.remove("unscrolled");
+        }
+
+        function remScrolledToNavbar() {
+            const e = document.querySelector('.navbar');
+            e.classList.add("unscrolled");
+            e.classList.remove("scrolled");
+        }
+
+        function onScrollToTop() {
+            if (window.scrollY === 0) {
+                remScrolledToNavbar()
+            }
+        }
+
+        window.addEventListener('scroll', onScrollToTop);
+    </script>
     <body>
 
     <!--TODO change page styling to look like the rest of the website-->

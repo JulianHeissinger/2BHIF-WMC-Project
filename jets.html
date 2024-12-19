@@ -7,6 +7,29 @@
     <link rel="stylesheet for jets" href="jets-style.css"> <!-- Style only used by jets.html -->
     <script defer src="app.js"></script>
 </head>
+<script>
+    addEventListener('scroll', addScrolledToNavbar);
+
+    function addScrolledToNavbar() {
+        const e = document.querySelector('.navbar');
+        e.classList.add("scrolled");
+        e.classList.remove("unscrolled");
+    }
+
+    function remScrolledToNavbar() {
+        const e = document.querySelector('.navbar');
+        e.classList.add("unscrolled");
+        e.classList.remove("scrolled");
+    }
+
+    function onScrollToTop() {
+        if (window.scrollY === 0) {
+            remScrolledToNavbar()
+        }
+    }
+
+    window.addEventListener('scroll', onScrollToTop);
+</script>
 <body>
     <h1 class="bounce red-to-white">Jets</h1>
 
@@ -205,7 +228,7 @@
         <p>&copy; 2024 Jets</p>
     </footer>
 
-    <nav class="navbar-for-jets">
+    <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="motorcycles.html">Motorcycles</a>
         <a href="boats.html">Boats</a>
