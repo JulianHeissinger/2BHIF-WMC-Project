@@ -45,6 +45,9 @@ Die Seite bietet spannende Informationen zu Jets, Autos, Motorrädern und Booten
   + Moderne
 + Boote: Marko T.
   + Bootstypen
+  + Yachten
+  + Fischer Boote
+  + Sonnen Segeln
   + Bootspflege
   + Bootszubehör
 
