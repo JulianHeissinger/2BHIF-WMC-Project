@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cars</title>
         <link rel="stylesheet" href="styles.css">
-    </head>
-    <script>
+</head>
+<script>
         function addScrolledToNavbar() {
             const e = document.querySelector('.navbar');
             e.classList.add("scrolled");
@@ -26,8 +26,8 @@
         }
 
         window.addEventListener('scroll', onScrollToTop);
-    </script>
-    <body>
+</script>
+<body>
 
     <!--TODO change page styling to look like the rest of the website-->
 
@@ -214,5 +214,12 @@
         <li>Ford (for models like Bronco)</li>
     </ul>
 -->
-    </body>
+
+    <nav class="navbar"> <!-- Navbar always has to be on the end of the html -->
+        <a href="index.html">Home</a>
+        <a href="jets.html">Jets</a>
+        <a href="motorcycles.html">Motorcycles</a>
+        <a href="boats.html">Boats</a>
+    </nav>
+</body>
 </html>
