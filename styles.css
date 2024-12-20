@@ -50,6 +50,7 @@ h2 {
     font-weight: bold;
     margin-top: 0.8rem;
     padding: 0.9rem;
+    color: whitesmoke;
 }
 
 h2.header {
@@ -262,6 +263,7 @@ h1
     width: 100%;
     position: fixed;
     bottom: 0;
+    display: block;
 }
 
 .navbar a {

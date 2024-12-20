@@ -194,6 +194,7 @@ img.small {
     text-align: center;
     border-radius: 1%;
     position: relative;
+    background-color: transparent;
 }
 
 .bild-container.card::after, .bild-container.card::before {
