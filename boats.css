@@ -42,6 +42,23 @@ nav a:hover {
 
 /* Sections for boat boxes */
 
+/* boats.css */
+
+/* Additional Styles */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-boats .highlight {
+    color: #ff5722;
+    font-weight: bold;
+}
+
 .section-boats {
     background-color: #111;
     margin: 2rem auto;
