@@ -150,7 +150,6 @@ li img:hover {
 
 .text-slider {
     position: absolute; /* Position the background text */
-    left: -0.5rem;
     color: rgba(239, 239, 239, 0.94); /* Grey text */
     width: 100%; /* Full width */
     padding: 17% 0.5rem; /* Some padding */
@@ -164,7 +163,7 @@ li img:hover {
     transition: transform 1s ease-in-out;
     transition-delay: 0s;
     transition-property: transform;
-    transform: translateX(30%);
+    transform: translateX(60%);
 }
 
 .unhovered {
