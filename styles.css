@@ -163,7 +163,7 @@ li img:hover {
     transition: transform 1s ease-in-out;
     transition-delay: 0s;
     transition-property: transform;
-    transform: translateX(60%);
+    transform: translateX(65%);
 }
 
 .unhovered {
