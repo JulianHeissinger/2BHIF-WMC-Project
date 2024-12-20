@@ -49,7 +49,6 @@ Die Seite bietet spannende Informationen zu Jets, Autos, Motorrädern und Booten
   + Fischer Boote
   + Sonnen Segeln
   + Bootspflege
-  + Bootszubehör
 
 ---
 
