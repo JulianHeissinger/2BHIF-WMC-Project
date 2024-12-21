@@ -30,6 +30,11 @@
 + Marken
 + Moderne
 
+#### **4. Boote (Marko)**
+- **Speedboote**: High-Speed-Abenteuer auf dem Wasser.
+- **Pflege-Tipps**
+- **Bootsarten**: Segelboote, Yachten, Motorboote, und mehr.
+
 ##### Ziele
 + Cooles Aussehen
 + Informativ
@@ -37,11 +42,6 @@
 
 **Fertig wenn ich es schön und informativ finde**
 
-### Boote
-#### Marko
-Entstehung:
-- Speedboote 
-- Pflege
 
 
 
