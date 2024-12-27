@@ -16,6 +16,9 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden1');
 hiddenElements.forEach((el) => observer.observe(el)); //Oberserviert jedes Element
 
+
+
+
 // Julian (Motorcycles)
 
 function AddHover(element){
@@ -32,7 +35,7 @@ function RemHover(element) {
 
 
 
-// Paul
+// Paul (Cars)
 
 const track = document.getElementById("image-track");
 

@@ -226,44 +226,6 @@ img.small {
     color: transparent;
 }
 
-/* Animationen for "hidden" and "show" elements */
-
-.hidden1 {
-    opacity: 0;
-    filter: blur(5px); /* Content is shown blury */
-    transform: translateY(100%); /* Box is coming up */
-    transition: all 1s;
-}
-
-.show1 {
-    opacity: 1;
-    filter: blur(0); /* Content is shown cleary */
-    transform: translateY(0); /* Box is placed in the center height */
-}
-
-/* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" is experimental doesn't work on all browsers 
-only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
-
-@keyframes appear {
-    from {
-        opacity: 0;
-        filter: blur(5px); /* Content is schown blury */
-        transform: translateY(100%); /* Box is coming up */
-        transition: all 1s;
-    }
-    to {
-        opacity: 1;
-        filter: blur(0); /* Content is shown cleary */
-        transform: translateY(0); /* Box is placed in the center height */
-    }
-}
-
-.block {
-    animation: appear linear;
-    animation-timeline: view(); /* HIGHLY experimental!!! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
-    animation-range: entry 0% cover;
-}
-
 /* Navigation-Bar for Jets */
 
 .navbar-for-jets {
@@ -305,6 +267,44 @@ only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
 
 .bounce {
     animation: bounce 1.5s ease 1;
+}
+
+/* Animationen for "hidden" and "show" elements */
+
+.hidden1 {
+    opacity: 0;
+    filter: blur(5px); /* Content is shown blury */
+    transform: translateY(100%); /* Box is coming up */
+    transition: all 1s;
+}
+
+.show1 {
+    opacity: 1;
+    filter: blur(0); /* Content is shown cleary */
+    transform: translateY(0); /* Box is placed in the center height */
+}
+
+/* CSS equivalent to the Javasrcipt Method for "hidden" and "show": BUT "animation-timeline: view()" is experimental doesn't work on all browsers 
+only Chrome suported one's, as of 29.11.2024 (Stand 29.11.2024) */
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        filter: blur(5px); /* Content is schown blury */
+        transform: translateY(100%); /* Box is coming up */
+        transition: all 1s;
+    }
+    to {
+        opacity: 1;
+        filter: blur(0); /* Content is shown cleary */
+        transform: translateY(0); /* Box is placed in the center height */
+    }
+}
+
+.block {
+    animation: appear linear;
+    animation-timeline: view(); /* HIGHLY experimental!!! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
+    animation-range: entry 0% cover;
 }
 
 /* Jets Styles End */
