@@ -57,7 +57,7 @@ li {
 /* Pictures */
 
 img.small {
-    width: 25%;
+    width: 30%;
 }
 
 /* Margins */
@@ -170,7 +170,7 @@ img.small {
 .bild-container img.hinter { /* Image appears when you hover over it */
     position: fixed;
     opacity: 0; /* 0 opacity means invisible */
-    width: 30%;
+    width: 29%;
 }
 
 .bild-container:hover img.vor {
@@ -179,6 +179,7 @@ img.small {
 
 .bild-container:hover img.hinter {
     opacity: 1; /* Back image is shown */
+    width: 29%;
 }
 
 .bild-shadowed-round-borders {
