@@ -49,6 +49,11 @@ Die Seite bietet spannende Informationen zu Jets, Autos, Motorrädern und Booten
   + Fischer Boote
   + Sonnen Segeln
   + Bootspflege
++ Rennen:
+  + Auto 
+  + Jet 
+  + Boote
+  + Motorrad
 
 ---
 
@@ -70,5 +75,6 @@ Das Ziel der Website ist es, die Leser für mindestens einen der behandelten Fah
 **Meilensteine:**
 - 18.10.2024: Projektbeginn, Aufgabenverteilung und erste Inhalte zu Fahrzeugtypen sammeln
 - 14.02.2025: Präsentation und Abgabe
+- 
 
 
