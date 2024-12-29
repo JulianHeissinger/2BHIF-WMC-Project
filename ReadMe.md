@@ -35,7 +35,7 @@
 - **Pflege-Tipps**
 - **Bootsarten**: Segelboote, Yachten, Motorboote.....
 
-#### **5.Rennen (Marko)**
+#### **5.Rennen**
 - Boot Rennen
 - Auto Rennen
 - Motorrennen etc.
