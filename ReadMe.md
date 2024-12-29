@@ -33,8 +33,12 @@
 #### **4. Boote (Marko)**
 - **Speedboote**: High-Speed-Abenteuer auf dem Wasser.
 - **Pflege-Tipps**
-- **Bootsarten**: Segelboote, Yachten, Motorboote, und mehr.
+- **Bootsarten**: Segelboote, Yachten, Motorboote.....
 
+#### **5.Rennen (Marko)**
+- Boot Rennen
+- Auto Rennen
+- Motorrennen etc.
 ##### Ziele
 + Cooles Aussehen
 + Informativ
